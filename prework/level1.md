@@ -69,7 +69,7 @@ To get started learning about the command line and some of the basic commands re
 
 > **NOTE** Don't install iTerm2 just yet, this will be included later in the prework and the built in Terminal for Mac will work just fine for learning things to get started.
 
-## HTML & CSS - 1-2 Hours
+## HTML & CSS - 1 Hour
 
 HTML and CSS are the foundation for getting started with Front End Engineering.
 Learning them is vital to working on the web as almost EVERYTHING that the user sees and interacts with in a browser boils down to HTML and CSS.
