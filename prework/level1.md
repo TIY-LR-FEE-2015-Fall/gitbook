@@ -7,7 +7,7 @@ To make sure that everyone is on the same page, we will be using OSX Yosemite 10
 Before coming to class (and if possible before starting other prework), please update your computer to the latest version of OSX Yosemite.
 This will make things much easier and will allow me to best replicate and figure out any issues that may come up in class.
 
-**WARNING:** Upgrades on OSX are usually pretty good about not losing data, but just like any time you are modifying the operating system. I recommend that you backup your computer and documents using Time Machine and Dropbox.
+> **WARNING:** Upgrades on OSX are usually pretty good about not losing data, but just like any time you are modifying the operating system. I recommend that you backup your computer and documents using Time Machine and Dropbox.
 
 ### The Update Process
 
@@ -17,9 +17,11 @@ This will make things much easier and will allow me to best replicate and figure
       here](https://itunes.apple.com/us/app/os-x-yosemite/id915041082?mt=12).
   3.  Double-click "Install OS X Yosemite” to begin installation.
 
-**WARNING:** The OS X upgrade can take a bit of time to complete and will require a restart.
+> **WARNING:** The OS X upgrade can take a bit of time to complete and will require a restart.
 Plan on doing this in the evening or over a lunch break.
-If you have another computer available, all of the below assignments (except the terminal assignment) can be completed with any computer that has internet access and a web browser!
+> If you have another computer available, all of the below assignments (except the terminal assignment) can be completed with any computer that has internet access and a web browser!
+
+> **WARNING:** Do not install any new programs focused on coding or recommended in some of this prework. We will install this during our install party since the order and versions that we install are very important.
 
 ## Typing - ALL THE TIME!!!
 
