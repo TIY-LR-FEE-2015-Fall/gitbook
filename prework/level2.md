@@ -28,6 +28,7 @@ Now you are ready to learn a bit more of the basics by completing the CodeCademy
 
 Github is important to understand and we'll be using it to turn in assignments.
 So let's get started by turning in your first assignment.
+But, before you get started, check out this video from github on how to create new issues: https://www.youtube.com/watch?v=TJlYiMp8FuY
 
 Go to the assignment repo for this class and do the following:
 
@@ -46,3 +47,7 @@ In your issue, include:
 
 1. What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
 2. Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain.
+
+> Notice that Github uses a note taking language called Markdown that compiles into HTML (it's actually the same format I use to make this Gitbook too).
+> You should read up on these two articles from [Team Treehouse](http://blog.teamtreehouse.com/explaining-markdown) and [Github](https://guides.github.com/features/mastering-markdown/) and use some markdown formatting in your issue.
+
