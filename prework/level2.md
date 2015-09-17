@@ -15,3 +15,34 @@ This will continue to be the foundation of your time as a Front End Engineer.
 To continue learning HTML & CSS finish the CodeCademy course for HTML & CSS:
 
 * https://www.codecademy.com/en/skills/make-a-website
+
+## Javascript - 7+ Hours
+
+You have started learning some Javascript and have worked through some of the basics.
+Now you are ready to learn a bit more of the basics by completing the CodeCademy JS course:
+
+* https://www.codecademy.com/tracks/javascript
+
+
+## Github - 20 Mins
+
+Github is important to understand and we'll be using it to turn in assignments.
+So let's get started by turning in your first assignment.
+
+Go to the assignment repo for this class and do the following:
+
+
+* **https://github.com/tiy-lr-fee-2015-fall/assignments**
+
+* Add a bookmark to the assignment repo in your bookmark bar
+* Click on the issues link to the right
+* Make a new issue titled <Your Name> - 00 - Introduction
+
+In your issue, include:
+
+* Your Name 
+* Your Github Username
+* Answers to the below questions:
+
+1. What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
+2. Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain.
