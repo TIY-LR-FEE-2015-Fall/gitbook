@@ -28,7 +28,7 @@ Now you are ready to learn a bit more of the basics by completing the CodeCademy
 
 Github is important to understand and we'll be using it to turn in assignments.
 So let's get started by turning in your first assignment.
-But, before you get started, check out this video from github on how to create new issues: https://www.youtube.com/watch?v=TJlYiMp8FuY
+But, before you get started, check out this video from github on how to create new issues: https://www.youtube.com/watch?v=TJlYiMp8FuY *NOTE* Some of the UI for filtering has moved from the left hand side to above the issues list but most of the issue creation process has been left the same.
 
 Go to the assignment repo for this class and do the following:
 
