@@ -4,6 +4,8 @@
 > To stay up to date on any changes, [star this Gitbook](https://www.gitbook.com/book/rtablada/lr-fall-2015/details) and you will get a daily summary of all changes.
 > You will will want this for class anyway as this will become a prime source for extra notes and review.
 
+> **IMPORTANT** Do your best not to install any developer tools until the install party unless you are directed to in this gitbook (not the provided materials). The closer your Mac is to being a blank slate (at least when it comes to developer tools), the faster the install party will go.
+
 Before we can really get moving, there are some base skills that are needed to keep up with the pace that we have planned for you.
 Levels 1 & 2 should be completed by install day (Oct 4th) and I highly recommend Levels 3 & 4.
 Please [email me](mailto:ryan@theironyard.com) if you have any questions or are having problems completing an assignment and I will be happy to help you.

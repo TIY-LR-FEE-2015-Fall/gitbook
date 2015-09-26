@@ -58,9 +58,9 @@ As we finish the course your Github profile and projects will be extremely usefu
 
 For this Level:
 
-- Sign up for a GitHub account at (https://github.com/)[https://github.com]
+- Sign up for a GitHub account at [https://github.com](https://github.com/)
 - Set up your profile with First and Last name as well as a profile picture of you (not an avatar please): this will help me learn your names faster
-- [Email me](ryan@theironyard.com) with the username you choose so that I can add you to the [class organization](https://github.com/TIY-LR-FEE-2015-Fall)
+- [Email me](mailto:ryan@theironyard.com) with the username you choose so that I can add you to the [class organization](https://github.com/TIY-LR-FEE-2015-Fall)
 
 ## Command Line - 1 Hour
 
@@ -77,8 +77,8 @@ HTML and CSS are the foundation for getting started with Front End Engineering.
 Learning them is vital to working on the web as almost EVERYTHING that the user sees and interacts with in a browser boils down to HTML and CSS.
 Get started on your journey by completing these lessons from CodeCademy:
 
-* (HTML Basics)[https://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1]
-* (Build Your Own Webpage)[https://www.codecademy.com/courses/web-beginner-en-LceTK]
+* [HTML Basics](https://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1)
+* [Build Your Own Webpage](https://www.codecademy.com/courses/web-beginner-en-LceTK)
 
 ## Javascript - 1-2 Hours
 
