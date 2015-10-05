@@ -1,4 +1,4 @@
-# Prework - Level 2
+# Prework - Level 2 - 11+ Hours
 
 ## Command Line - 2-3 Hours
 
@@ -23,6 +23,13 @@ Now you are ready to learn a bit more of the basics by completing the CodeCademy
 
 * https://www.codecademy.com/tracks/javascript
 
+## Git - 1-2 Hours
+
+You have started to get used to `git`, now you need to get used to some more of the available commands.
+Start by reading from the official `git` documentation Chapter 2:
+
+* https://git-scm.com/book/en/v1/Git-Basics
+
 
 ## Github - 20 Mins
 
@@ -41,7 +48,7 @@ Go to the assignment repo for this class and do the following:
 
 In your issue, include:
 
-* Your Name 
+* Your Name
 * Your Github Username
 * Answers to the below questions:
 
@@ -50,4 +57,3 @@ In your issue, include:
 
 > Notice that Github uses a note taking language called Markdown that compiles into HTML (it's actually the same format I use to make this Gitbook too).
 > You should read up on these two articles from [Team Treehouse](http://blog.teamtreehouse.com/explaining-markdown) and [Github](https://guides.github.com/features/mastering-markdown/) and use some markdown formatting in your issue.
-
