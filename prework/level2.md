@@ -30,6 +30,16 @@ Start by reading from the official `git` documentation Chapter 2:
 
 * https://git-scm.com/book/en/v1/Git-Basics
 
+## Typing - ~10 Mins Per Day
+
+Typing standard articles and prose is very different from code and things do tend to flow a bit different.
+In Level 1 you started to enforce touch typing, now put those skills to use by getting used to typing code.
+Using the free plan on typing.io practice some of the Javascript lessons:
+
+* http://typing.io
+* https://typing.io/lesson/javascript/jquery/traversing.js/1
+
+> The first jQuery lesson has a lot of Regular Expressions which will likely seem different to you.
 
 ## Github - 20 Mins
 
