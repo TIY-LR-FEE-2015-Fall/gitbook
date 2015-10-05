@@ -13,6 +13,8 @@ I recommend signing up for a month of Codeschool if you can swing it though sinc
 For now goto [`atom.io`](http://atom.io) and install Atom editor.
 You can start working in project mode by going to a folder from the terminal and typing `atom .` to open the current folder in Atom editor.
 
+> Since you've worked on these different skills before, you may want to use the speed option in the video player to work through the courses a bit more quickly.
+
 ## HTML & CSS - (Codeschool Frontend Foundations) - 2.5-5 Hours
 
 Now you have a decent amount of HTML and CSS under your belt.
@@ -36,4 +38,29 @@ For this part of your prework, work through the Javascript Road Trip Part 1 (doe
 Continuing on your journey of Javascript fundamentals, you should start working more with data structures, logic statements, and arrays.
 To do this, finish the Javascript Road Trip Part 2 (requires a Codeschool subscription):
 
-* http://javascript-roadtrip-part2.codeschool.com/levels/1/challenges/1
+* http://javascript-roadtrip-part2.codeschool.com
+
+## Javascript - (Codeschool JS Road Trip Part 3) - 2-3 Hours
+
+Continuing on your journey of Javascript fundamentals, you now should review functions and objects.
+To do this, finish the Javascript Road Trip Part 3 (requires a Codeschool subscription):
+
+* http://javascript-roadtrip-part3.codeschool.com
+
+## CSS - (Codeschool CSS Cross Country) - 3-5 Hours
+
+So now you've looked at CSS, HTML, and JS fairly in-depth.
+But, there are some quirks with CSS that you might not be fully aware of until you really dig in.
+The Codeschool CSS Cross Country course is a more in-depth look at a few of the most common CSS rules and working with them.
+I think at this point, you know what to do (requires a Codeschool subscription):
+
+* http://cssxcountry.codeschool.com/levels/1
+
+## Javascript - (Codeschool Try jQuery) - 3-6 Hours
+
+jQuery is a popular Javascript library for working with what the user sees and capturing user interactions.
+We will be covering this library much more in depth later in the course, but getting a head start will help you.
+This will also give you more time to get used to Javascript in action.
+You can find the course here (does not require Codeschool subscription):
+
+* http://try.jquery.com/
