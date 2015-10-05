@@ -5,7 +5,7 @@
 > You will will want this for class anyway as this will become a prime source for extra notes and review.
 
 Most of this level reviews past content using Codeschool.
-Codeschool adds video along with challenges.
+Codeschool adds video along with challenges (some of the videos can be a bit campy).
 It is my preference for video along with coding challenges for the following materials, but if you do not have a Codeschool account, you can find the same lessons in Level 4 on Team Treehouse (which has a 14 Day Trial).
 I recommend signing up for a month of Codeschool if you can swing it though since I think it really gives a good bang for your buck and you can cancel once class starts.
 
