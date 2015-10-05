@@ -10,6 +10,13 @@ Before we can really get moving, there are some base skills that are needed to k
 Levels 1 & 2 should be completed by install day (Oct 4th) and I highly recommend Levels 3 & 4.
 Please [email me](mailto:ryan@theironyard.com) if you have any questions or are having problems completing an assignment and I will be happy to help you.
 
+After completing Level 3, I recommend trying out some of the [projects](projects.html).
+These will test your ability to make changes to existing HTML and CSS pages to complete a client's needs or in some instances, you will create full pages from scratch.
+
+> **NOTE** Level 4 has much of the same content as Level 3 but is courses from Team Treehouse instead of Codeschool.
+My preference between the two sites leans toward Codeschool although I realize that they do not offer a free trial.
+Because of this, if you have an existing membership to Team Treehouse or have a free trial, you may want to try Level 4 before Level 3.
+
 We will start class assuming that everyone has completed these prework assignments, and if you are unable to finish them, you will likely feel like you are far behind.
 
 To complete this prework, you will need to sign up for a few accounts:
@@ -43,3 +50,4 @@ Continue to follow through this chapter of prework and I will see you in class!
 - [Level 2](level2.html)
 - [Level 3](level3.html)
 - [Level 4](level4.html)
+- [Projects](projects.html)
