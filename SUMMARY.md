@@ -5,6 +5,7 @@
     - [Level 2](prework/level2.md)
     - [Level 3](prework/level3.md)
     - [Level 4](prework/level4.md)
+    - [Projects](prework/projects.md)
 * Class Notes
     - Week 1
         + [Day 0](week-1/day-0/index.md)
