@@ -30,6 +30,8 @@ To install oh-my-zsh run the following command:
 
 ```
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+wget https://gist.githubusercontent.com/rtablada/616652322eb096a0e476/raw/a5e595962a155583ff162a5940b3a65e971bab79/batcharge.py ~/bin
+wget https://gist.githubusercontent.com/rtablada/616652322eb096a0e476/raw/a5e595962a155583ff162a5940b3a65e971bab79/doubleend.zsh-theme ~/.oh-my-zsh/themes
 ```
 
 When this finishes running, you'll already notice that your shell prompt is much more colorful.
@@ -37,9 +39,10 @@ When this finishes running, you'll already notice that your shell prompt is much
 Now let's make one last change to ZSH before we move on.
 
 - Run `subl ~/.zshrc` to open the ZSH config file in Sublime Text
-- Where it says `ZSH_THEME` change it from `robbyrussel` to `cypher`
+- Where it says `ZSH_THEME` change it from `robbyrussel` to `doubleend`
 
 This change will let you see the full path of your current session so you won't have to keep running `pwd`.
+And it will even show you your current git status and branch!
 
 ## Fast Wins with ZSH
 
