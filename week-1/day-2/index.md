@@ -42,3 +42,5 @@ console.assert(x _ y === 2);
 * [Keyboard Shortcuts](/resources/keyboard-shortcuts.html)
 
 ## Homework
+
+https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/03-octocat-grid
