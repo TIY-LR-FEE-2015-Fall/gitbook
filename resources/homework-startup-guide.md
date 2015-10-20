@@ -9,8 +9,8 @@ These notes will not tell you the exact commands that you will need to run, but 
 2. Make sure that your shell is in the newly created folder
 3. Initialize a new git repo in the assignment directory - `git init`
 4. [Create boiler plate files needed for the assignment](project-structure.html)
-5. Stage boilerplate files
-6. Commit boilerplate files
+5. Stage boilerplate files - `git add`
+6. Commit boilerplate files - `git commit -m "Your commit message goes here"`
 7. Create repository on Github - `hub create`
 8. Push local git repo with boilerplate to new Github (should be your `master` branch) - `git push -u origin master`
 9. Create and checkout new `develop` branch for new changes on top of the existing boilerplate - `git checkout -b develop`
