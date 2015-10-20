@@ -48,3 +48,4 @@ https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/03-octocat-grid
 ## Resources
 
 * [Learn Layout](http://learnlayout.com/)
+* [Writing Better HTML & CSS](http://learn.shayhowe.com/html-css/writing-your-best-code/)
