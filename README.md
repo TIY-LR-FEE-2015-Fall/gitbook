@@ -11,7 +11,7 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
 * Download Day
     - Setup, Shortcuts, Programs, and the Command Line
         - .editorconfig
-        - Sublime Plugins
+        - Atom Plugins
 * Week 1
     - Git
     - Console Rundown
