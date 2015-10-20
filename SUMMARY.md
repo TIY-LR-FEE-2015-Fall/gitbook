@@ -27,4 +27,4 @@
 - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
 - [Homework Preflight Checklist](resources/homework-startup-guide.md)
 - [Default Project Structure](resources/project-structure.md)
-    - Common Git Issues
+- Common Git Issues

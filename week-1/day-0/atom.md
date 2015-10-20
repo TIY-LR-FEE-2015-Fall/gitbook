@@ -8,7 +8,6 @@ First, cover some of the basic shortcuts that will cut down some of your time in
 The basic keyboard shortcuts that you are used to will still work, review and try out some of the shortcuts below.
 
 - `CMD+C`
-- `CMD+P`
 - `CMD+X`
 - `CMD+S`
 - `CMD+Z`
