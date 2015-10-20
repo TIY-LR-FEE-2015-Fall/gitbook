@@ -16,6 +16,10 @@
             * [Atom Configuration](week-1/day-0/atom.md)
             * [Zsh](week-1/day-0/zsh.md)
             * [Other](week-1/day-0/other.md)
+        + [Day 1](week-1/day-1/index.md)
+            * [HTML Basics](week-1/day-1/html.md)
+            * [HTML Boilerplate](week-1/day-1/boilerplate.md)
+            * [HTML Elements](week-1/day-1/elements.md)
     - Homework Preflight Checklist
     - Default Project Structure
     - Common Git Issues
