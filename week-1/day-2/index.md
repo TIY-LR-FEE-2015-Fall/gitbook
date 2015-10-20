@@ -63,7 +63,7 @@ https://github.com/TIY-LR-FEE-2015-Fall/lesson-01-02
 ## Lab
 
 * Set Upstream Branches - `git push -u`
-* [Keyboard Shortcuts](/resources/keyboard-shortcuts.html)
+* [Keyboard Shortcuts](../../resources/keyboard-shortcuts.html)
 
 ## Homework
 
