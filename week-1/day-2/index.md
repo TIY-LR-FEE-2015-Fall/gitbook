@@ -23,28 +23,28 @@ console.log(x !== a);
 console.log(x !== z);
 
 // When you see console.assert fill in the _ to make the statement true
-console.assert(x _ y === -1);
-console.assert(x _ y === 5);
-console.assert(x _ z === 2);
-console.assert(x _ y === 6);
-console.assert(x _ y === 2);
+console.assert(x - y === -1);
+console.assert(x + y === 5);
+console.assert(z / x === 2);
+console.assert(x * y === 6);
+console.assert(x % y === 2);
 
 /* Results (Printed statements from console.logs) */
-//
-//
-//
-//
-//
-//
-//
-//
+// true
+// false
+// true
+// false
+// false
+// false
+// true
+// true
 
 /* Answers (Filled in _ for console.asserts) */
-//
-//
-//
-//
-//
+// -
+// +
+// /
+// *
+// %
 ```
 
 ## Topics
@@ -54,9 +54,11 @@ console.assert(x _ y === 2);
 * [CSS Floats](floats.html)
 * [Don't Overthink it Grids](https://css-tricks.com/dont-overthink-it-grids/)
 
-## Exercise
+## Exercise & Lesson Code
 
 * Build the HackerNews Navbar
+
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-01-02
 
 ## Lab
 
