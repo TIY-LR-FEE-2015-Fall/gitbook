@@ -27,7 +27,8 @@ console.log(a);
 - [HTML Elements and Attributes](html.html)
 - [Boilerplate Valid HTML](boilerplate.html)
 - [Common HTML Elements](elements.html)
-- [Basic CSS Properties](css.html)
+- [Basic CSS Selectors](selectors.html)
+- [Basic CSS Properties](properties.html)
 
 ## Lab
 

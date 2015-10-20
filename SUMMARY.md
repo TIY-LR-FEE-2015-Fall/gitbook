@@ -20,6 +20,9 @@
             * [HTML Basics](week-1/day-1/html.md)
             * [HTML Boilerplate](week-1/day-1/boilerplate.md)
             * [HTML Elements](week-1/day-1/elements.md)
+            * [CSS Selectors](week-1/day-1/selectors.md)
+            * [CSS Properties](week-1/day-1/properties.md)
+        + [Day 2](week-1/day-2/index.md)
     - Homework Preflight Checklist
     - Default Project Structure
     - Common Git Issues
