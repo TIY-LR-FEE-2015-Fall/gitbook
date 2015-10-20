@@ -37,7 +37,7 @@ console.assert(x _ y === 2);
 
 ## Lab
 
-* Set Upstream Branches
+* Set Upstream Branches - `git push -u`
 * [Console Review](samkap.github.io/command-line-starter-kit)
 * [Keyboard Shortcuts](/resources/keyboard-shortcuts.html)
 
