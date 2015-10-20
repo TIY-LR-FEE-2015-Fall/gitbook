@@ -23,6 +23,7 @@
             * [CSS Selectors](week-1/day-1/selectors.md)
             * [CSS Properties](week-1/day-1/properties.md)
         + [Day 2](week-1/day-2/index.md)
+            * [CSS Box Model](week-1/day-2/box-model.md)
     - [Homework Preflight Checklist](resources/homework-startup-guide.md)
     - [Default Project Structure](resources/project-structure.md)
     - Common Git Issues
