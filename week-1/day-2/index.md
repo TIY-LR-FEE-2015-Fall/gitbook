@@ -51,7 +51,7 @@ console.assert(x % y === 2);
 
 * [CSS Box Model](box-model.html)
 * [CSS Display](display.html)
-* [CSS Floats](floats.html)
+* [CSS Floats](float.html)
 
 ## Exercise & Lesson Code
 

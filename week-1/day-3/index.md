@@ -29,6 +29,15 @@ console.log(x + b);
 
 ## Topics
 
+* Semantic HTML Elements
+  - `header`
+  - `footer`
+  - `aside`
+  - `figure` & `figcaption`
+  - `article`
+  - `section`
+  - `main`
+* [Full Screen Backgrounds](backgrounds.html)
 * [CSS Pseudo Selectors](pseudo-selectors.html)
 * [CSS Position](position.html)
 * [CSS Centering](centering.html)
