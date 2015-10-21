@@ -24,6 +24,7 @@
       * [CSS Properties](week-1/day-1/properties.md)
     + [Day 2](week-1/day-2/index.md)
       * [CSS Box Model](week-1/day-2/box-model.md)
+      * [CSS display](week-1/day-2/display.md)
 - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
 - [Homework Preflight Checklist](resources/homework-startup-guide.md)
 - [Default Project Structure](resources/project-structure.md)
