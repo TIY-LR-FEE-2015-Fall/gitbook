@@ -52,7 +52,6 @@ console.assert(x % y === 2);
 * [CSS Box Model](box-model.html)
 * [CSS Display](display.html)
 * [CSS Floats](floats.html)
-* [Don't Overthink it Grids](https://css-tricks.com/dont-overthink-it-grids/)
 
 ## Exercise & Lesson Code
 
