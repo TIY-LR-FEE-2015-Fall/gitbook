@@ -39,3 +39,11 @@ Notice a few things, since this image is inline to the text content of the `p` t
 Also notice that the background of the `p` tag does not respect the height of the `img` tag and ends a bit early.
 This is because floats do not tell their height to parent elements.
 To fix this all we would have to do is add `overflow: auto` (or any `overflow` value other than `visible`) to make the parent interrogate the true height of all children elements that are `position: relative` or `position: static`.
+
+<p style="background: #aaa; color: black; overflow: auto;">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <img src="http://lorempixel.com/200/200" alt="placeholder" style="float: right;">
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
