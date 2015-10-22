@@ -70,6 +70,6 @@ https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/03-octocat-grid
 
 ## Resources
 
-* [Console Review](samkap.github.io/command-line-starter-kit)
+* [Console Review](http://samkap.github.io/command-line-starter-kit)
 * [Learn Layout](http://learnlayout.com/)
 * [Writing Better HTML & CSS](http://learn.shayhowe.com/html-css/writing-your-best-code/)

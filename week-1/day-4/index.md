@@ -38,8 +38,8 @@ console.log(c === d);
 
 ## Topics
 
-* [Media Queries](media-queries.html)
 * [Breaking Down a Layout](layout-planning.html)
+* [Media Queries](media-queries.html)
 * [Vertical Rhythm](vertical-rhythm.html)
 * [Mobile Chrome Dev Tools](chrome-dev-tools.html)
 
