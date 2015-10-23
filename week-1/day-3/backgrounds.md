@@ -78,3 +78,17 @@ There are three different values:
 </div>
 
 ## `background-size`
+
+Another powerful tool when working with backgrounds is the `background-size` property.
+By default, the image of a background will take up the size of said image regardless if that is larger or smaller than the element which the image is a background.
+To change this behavior you can use the `background-size` property and pass either a size value (px, em, etc) or two special values: `cover` and `contain`.
+
+The `cover` value specifies that the image should not leave ANY whitespace and should cover the full element both vertically AND horizontal with a single instance of the image.
+
+The `contain` value specifies that the image should cover the either the element vertically or horizontal with a single instance of the image, this often leaves extra un-styled background unless you get the image resolution and element sizing JUST right.
+
+> **Note** that if a background is too small to fully fill the background of an element, it will repeat in both the X and Y axis unless you change the `background-repeat` property to `no-repeat`.
+
+## `background` Combined Property
+
+When working with backgrounds everything listed above (including the `background-repeat`) property can be combined on a single line with the `background` property: `background: url(http://lorempixel.com/output/abstract-q-c-640-480-4.jpg) center center no-repeat fixed;` is the same as `background-image: url(http://lorempixel.com/output/abstract-q-c-640-480-4.jpg); background-position: center center; background-repeat: none; background-attachment: fixed;`
