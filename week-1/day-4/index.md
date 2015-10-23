@@ -42,6 +42,7 @@ console.log(c === d);
 * [Breaking Down a Layout](layout-planning.html)
 * [Media Queries](media-queries.html)
 * [Vertical Rhythm](vertical-rhythm.html)
+* [Flex Box](flex-box.html)
 * [Mobile Chrome Dev Tools](chrome-dev-tools.html)
 
 ## Exercise & Lesson Code
