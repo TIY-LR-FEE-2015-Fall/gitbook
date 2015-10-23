@@ -27,6 +27,8 @@
       * [CSS display](week-1/day-2/display.md)
       * [CSS float](week-1/day-2/float.md)
     + [Day 3](week-1/day-3/index.md)
+      * [CSS background](week-1/day-3/backgrounds.md)
+      * [CSS Pseudo Selectors](week-1/day-3/pseudo-selectors.md)
     + [Day 4](week-1/day-4/index.md)
       * [Layout Planning](week-1/day-4/layout-planning.md)
 - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
