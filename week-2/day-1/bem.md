@@ -72,7 +72,7 @@ Then styling `.main-article__content p` which gives a bit more specificity.
 When naming modifiers with BEM we should always start with the block or element class name followed by two hyphens and then the modifier name `.page-header__hero-text--centered`.
 Note that when creating HTML you will have to have both the original class along with the modifier class for the full styling to take effect:
 
-```HMTML
+```HTML
 <article class="main-article main-article--centered">
   <div class="main-article__author-info">...</div>
   <div class="main-article__content"></div>

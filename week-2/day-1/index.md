@@ -30,19 +30,24 @@ console.log(z());
 console.log(a());
 
 /* Results */
-//
-//
-//
-//
-//
+// function
+// "hello"
+// null
+// "world"
+// null
+// "yup"
+// null
+// "no"
 ```
 
 ## Topics
 
 - [Organizing CSS](organizing.html)
 - [BEM Class Names](bem.html)
-- [Broccoli](broccoli.html)
-- [SASS](sass.html)
+
+## Code
+
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-01
 
 ## Lab
 

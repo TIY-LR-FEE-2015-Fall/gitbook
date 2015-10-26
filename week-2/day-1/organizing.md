@@ -44,7 +44,7 @@ For instance we may want to remove the `text-decoration` from all `a` tags:
 
 ```CSS
 a {
-  text-decoration: none;
+  text-decoration: inherit;
 }
 ```
 
