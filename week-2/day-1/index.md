@@ -63,7 +63,7 @@ https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-01
 
 ## Homework
 
-https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/07-blog
+https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/06-css-specificity
 
 > **NOTE** Along with your homework, you should try to apply the concepts of BEM and organization to the homework from last Thursday.
 You may optionally change to using SASS for better organization, variables, and what we discussed in class today.
