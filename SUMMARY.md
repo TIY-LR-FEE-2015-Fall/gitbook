@@ -33,6 +33,8 @@
       * [CSS position](week-1/day-3/position.md)
     + [Day 4](week-1/day-4/index.md)
       * [Layout Planning](week-1/day-4/layout-planning.md)
+  - Week 2
+    + [Day 1](week-2/day-1/index.md)
 - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
 - [Homework Preflight Checklist](resources/homework-startup-guide.md)
 - [Default Project Structure](resources/project-structure.md)
