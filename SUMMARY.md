@@ -35,6 +35,10 @@
       * [Layout Planning](week-1/day-4/layout-planning.md)
   - Week 2
     + [Day 1](week-2/day-1/index.md)
+      * [Organizing CSS](week-2/day-1/organizing.md)
+      * [BEM](week-2/day-1/bem.md)
+      * [SASS](week-2/day-1/sass.md)
+      * [Jekyll](week-2/day-1/jekyll.md)
 - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
 - [Homework Preflight Checklist](resources/homework-startup-guide.md)
 - [Default Project Structure](resources/project-structure.md)
