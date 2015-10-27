@@ -65,9 +65,9 @@ Let's say that we wanted both of these output to our new build folder.
 Then our `Brocfile.js` file would look like this:
 
     // Pulls in the `merge` function with NPM
-    var merge = require('broccoli-merge-trees');
+    var Merge = require('broccoli-merge-trees');
 
-    module.exports = merge(['public', 'css']);
+    module.exports = new Merge(['public', 'css']);
 
 And if we run `broccoli build dist`, we will have a `dist` directory with a copy of `index.html` and a copy of `style.css`.
 Our whole project will look a bit like this
@@ -82,6 +82,13 @@ Our whole project will look a bit like this
     |  |- index.html
     |- Brocfile.js
     |- package.json
+
+> **NOTE** When using `broccoli-merge-tress` if two directories have the same file, you will get an error. To stop this from happening pass `{ overwrite: true }` as a second argument to the Merge constructor. This will overwrite with the last folder's version of a file:
+
+    // Pulls in the `merge` function with NPM
+    var Merge = require('broccoli-merge-trees');
+
+    module.exports = new Merge(['public', 'css'], {overwrite: true});
 
 # Running a Broccoli Server
 

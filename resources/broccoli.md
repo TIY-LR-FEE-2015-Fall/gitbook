@@ -15,7 +15,7 @@ This plugin takes an array of either folder names as strings or outputs from oth
 
     var Merge = require('broccoli-merge-trees');
 
-    module.exports = Merge(['public', 'assets']);
+    module.exports = new Merge(['public', 'assets']);
 
 This would take all of the contents of both `public` and `assets` and put it at the root of our build output.
 
@@ -32,6 +32,13 @@ Would output:
     /
     |-index.html
     |-app.js
+
+> **NOTE** When using `broccoli-merge-tress` if two directories have the same file, you will get an error. To stop this from happening pass `{ overwrite: true }` as a second argument to the Merge constructor. This will overwrite with the last folder's version of a file:
+
+    // Pulls in the `merge` function with NPM
+    var Merge = require('broccoli-merge-trees');
+
+    module.exports = new Merge(['public', 'assets'], {overwrite: true});
 
 <!-- # `broccoli-funnel`
 
