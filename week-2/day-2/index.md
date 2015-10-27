@@ -44,12 +44,13 @@ console.log(b(y, x));
 
 - [SASS Mixins](mixins.html)
 - [Bower](bower.html)
-- [Bourbon](bourbon.html)
-- [Neat](neat.html)
+- [Deploying To Github Pages With Broccoli](gh-page.html)
 
 ## Lab
 
-- [Deploying To Github Pages With Broccoli](gh-page.html)
+- [Jekyll Blog](jekyll.html)
+- [Github Pages](gh-page.html)
+
 
 ## Resources
 

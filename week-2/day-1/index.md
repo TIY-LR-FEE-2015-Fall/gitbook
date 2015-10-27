@@ -49,11 +49,6 @@ console.log(a());
 
 https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-01
 
-## Lab
-
-- [Jekyll Blog](jekyll.html)
-- [Github Pages](gh-page.html)
-
 ## Resources
 
 - [BEM Website](http://getbem.com/)

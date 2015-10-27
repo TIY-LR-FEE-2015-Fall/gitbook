@@ -37,6 +37,7 @@
     + [Day 1](week-2/day-1/index.md)
       * [Organizing CSS](week-2/day-1/organizing.md)
       * [BEM](week-2/day-1/bem.md)
+    + [Day 2](week-2/day-2/index.md)
       * [SASS](week-2/day-1/sass.md)
       * [Jekyll](week-2/day-1/jekyll.md)
 - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
