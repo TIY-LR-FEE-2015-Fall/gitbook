@@ -39,8 +39,9 @@
       * [BEM](week-2/day-1/bem.md)
     + [Day 2](week-2/day-2/index.md)
       * [Broccoli](week-2/day-2/broccoli.md)
-- [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
-- [Homework Preflight Checklist](resources/homework-startup-guide.md)
-- [Default Project Structure](resources/project-structure.md)
-- [Broccoli Plugins](resources/broccoli.md)
-- Common Git Issues
+* Resources
+  - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
+  - [Homework Preflight Checklist](resources/homework-startup-guide.md)
+  - [Default Project Structure](resources/project-structure.md)
+  - [Broccoli Plugins](resources/broccoli.md)
+  - Common Git Issues
