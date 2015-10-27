@@ -42,25 +42,19 @@ console.log(b(y, x));
 
 ## Topics
 
-- [SASS Mixins](mixins.html)
+- [Broccoli](broccli.html)
+- [NPM](npm.html)
+- [.gitignore](gitignore.html)
 - [Bower](bower.html)
-- [Deploying To Github Pages With Broccoli](gh-page.html)
 
 ## Lab
 
-- [Jekyll Blog](jekyll.html)
-- [Github Pages](gh-page.html)
-
+- [Deploying To Github Pages With Broccoli](gh-page.html)
 
 ## Resources
 
-- [Bourbon Docs](http://bourbon.io/)
-- [Neat Docs](http://neat.bourbon.io/)
+- [Project Structure Updates](../../resources/project-structure)
 
 ## Homework
 
-https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/07-blog
-
-## Blog Entry
-
-Tonight I would like for you to blog about what the hardest part of HTML and CSS has been so far.
+https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/07-positioning-exercise
