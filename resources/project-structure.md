@@ -4,8 +4,9 @@ Here are the files that should appear in every project from now on:
 
     /
     |-.gitignore
-    |-index.html
-    |-app.css
+    |-public/
+    | |-index.html
+    | |-app.css
 
 ## Example `.gitignore`
 
