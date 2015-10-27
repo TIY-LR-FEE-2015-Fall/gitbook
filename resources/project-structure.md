@@ -1,9 +1,11 @@
 # Default Project Structure
 
-Here are the files that should appear in every project from now on:
+Here are the files that should appear as the boilerplate on the `master` branch of every project from now on:
 
     /
     |-.gitignore
+    |-bower.json
+    |-package.json
     |-public/
     | |-index.html
     | |-app.css
@@ -13,17 +15,6 @@ Here are the files that should appear in every project from now on:
     tmp
     node_modules
     bower_components
-
-# Example `package.json`
-
-The `package.json` file is created by running `npm init` and then following through the instructions.
-We can use the defaults for now.
-
-To install packages with npm run `npm install --save-dev package-name` where you would replace `package-name` with the package you want to install.
-A few example npm packages we've used are:
-
-* `broccoli`
-* `broccoli-merge-trees`
 
 # Example `bower.json`
 
@@ -36,7 +27,18 @@ A few example Bower packages we've used are:
 * `normalize-css`
 * `font-awesome`
 
-## Example `index.html`
+# Example `package.json`
+
+The `package.json` file is created by running `npm init` and then following through the instructions.
+We can use the defaults for now.
+
+To install packages with npm run `npm install --save-dev package-name` where you would replace `package-name` with the package you want to install.
+A few example npm packages we've used are:
+
+* `broccoli`
+* `broccoli-merge-trees`
+
+## Example `public/index.html`
 
     <!DOCTYPE html>
 
@@ -52,7 +54,7 @@ A few example Bower packages we've used are:
     </body>
     </html>
 
-## Example `app.css`
+## Example `public/app.css`
 
     /* apply a natural box layout model to all elements, but allowing components to change */
     html {
