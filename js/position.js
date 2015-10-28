@@ -1,4 +1,8 @@
 (function() {
+  function getStoredPosition() {
+    return localStorage.positionExamples && JSON.parse(localStorage.positionExamples);
+  }
+
   function initApplication() {
     $('.positionable').find('input').on('change', function() {
       var $this = $(this);
@@ -11,10 +15,10 @@
 
     $('.toggle-examples__btn').on('click', function() {
       $('.positionable').toggle();
-      localStorage.positionExamples = !JSON.parse(localStorage.positionExamples);
+      localStorage.positionExamples = !getStoredPosition();
     });
 
-    if (JSON.parse(localStorage.positionExamples)) {
+    if (getStoredPosition()) {
       $('.positionable').toggle();
     }
   }

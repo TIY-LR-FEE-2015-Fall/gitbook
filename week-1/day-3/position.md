@@ -83,6 +83,7 @@ transform: translateX(100%);</pre>
 </div>
 
 <style>
+
   .toggle-examples {
     z-index: 99;
     position: fixed;
