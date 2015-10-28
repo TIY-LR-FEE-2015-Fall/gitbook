@@ -65,7 +65,8 @@ console.log(b(y, x));
 
 ## Lab
 
-- [Deploying To Github Pages With Broccoli](gh-page.html)
+- [Jekyll Blog](jekyll.html)
+- [Github Pages](gh-page.html)
 
 ## Resources
 

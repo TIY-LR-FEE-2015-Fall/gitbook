@@ -52,9 +52,6 @@ https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-01
 ## Resources
 
 - [BEM Website](http://getbem.com/)
-- [Jekyll Docs](https://jekyllrb.com/)
-- [SASS Docs](http://sass-lang.com/guide)
-- [How To Write Without Writing](http://blog.codinghorror.com/how-to-write-without-writing/)
 
 ## Homework
 
