@@ -34,6 +34,7 @@
       * [CSS transform](week-1/day-3/transform.md)
     + [Day 4](week-1/day-4/index.md)
       * [Layout Planning](week-1/day-4/layout-planning.md)
+      * [Layout Tricks](week-1/day-4/layout-tricks.md)
   - Week 2
     + [Day 1](week-2/day-1/index.md)
       * [Organizing CSS](week-2/day-1/organizing.md)

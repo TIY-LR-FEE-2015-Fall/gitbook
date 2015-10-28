@@ -40,9 +40,9 @@ console.log(c === d);
 
 * [Example Layout](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/stage4.png)
 * [Breaking Down a Layout](layout-planning.html)
-* [Media Queries](media-queries.html)
-* [Vertical Rhythm](vertical-rhythm.html)
+* [Layout Techniques](layout-techniques.html)
 * [Flex Box](flex-box.html)
+* [Media Queries](media-queries.html)
 * [Mobile Chrome Dev Tools](chrome-dev-tools.html)
 
 ## Exercise & Lesson Code
