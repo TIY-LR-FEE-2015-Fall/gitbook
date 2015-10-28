@@ -41,6 +41,7 @@
       * [BEM](week-2/day-1/bem.md)
     + [Day 2](week-2/day-2/index.md)
       * [Broccoli](week-2/day-2/broccoli.md)
+    + [Day 3](week-2/day-3/index.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Homework Preflight Checklist](resources/homework-startup-guide.md)
