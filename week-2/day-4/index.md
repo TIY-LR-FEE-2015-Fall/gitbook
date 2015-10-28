@@ -1,67 +1,67 @@
-# Tuesday October 27
+# Thursday October 29
 
 
 ## Daily JS
 
-### Objects and an intro to `this`
+### Logic and "Truthiness"
 
 ```js
-var x = function(one) {
-  return one + 10;
+var x = 10;
+
+var y = function(wat) {
+  console.log(wat);
+
+  return wat === 10;
 };
 
-var y = function() {
-  return this.firstName;
-};
+var z = 'no';
 
-var z = {
-  firstName: 'John',
-  lastName: 'Doe',
+var a = (foo) => {
+  if (foo) {
+    console.log(`a works with ${foo.toString()}`);
+  }
+}
 
-  somethingCool: x,
+if (x) {
+  console.log(`x is truthy?`);
+}
 
-  getFirstName: y,
+if (y) {
+  console.log(`y is truthy?`);
+}
 
-  fullName: function() {
-    return `${this.firstName} ${this.lastName}`;
-  },
+if (z) {
+  console.log(`z is truthy?`);
+}
 
-  setName(first, last) { // setName: function(first, last) {
-    this.firstName = first;
-    this.lastName = last;
-  },
-};
+if (y(`10`)) {
+  console.log(`y('10') is truthy?`);
+}
 
-console.log(x(12));
-console.log(y());
-console.log(z.firstName);
-console.log(z.somethingCool(8)); // Same a x(8)
-console.log(z.getFirstName());
-console.log(z.setName('Han', 'Solo'));
-console.log(z.fullName());
+if (a()) {
+  console.log(`a() is truthy?`);
+}
+
+if (a(null)) {
+  console.log(`a(null) is truthy?`);
+}
+
+if (a(10)) {
+  console.log(`a(10) is truthy?`);
+}
+
 
 /* Results */
-// 22
-// undefined
-// "John"
-// 18
-// "John"
-// undefined
-// "Han Solo"
+
 ```
 
 ## Topics
 
 - [SASS Mixins](mixins.html)
-- [Bower](bower.html)
+- [SASS Extends](extends.html)
 - [Bourbon](bourbon.html)
 - [Neat](neat.html)
 - [Deploying To Github Pages With Broccoli](gh-page.html)
-
-## Lab
-
-- [Jekyll Blog](jekyll.html)
-- [Github Pages](gh-page.html)
 
 ## Resources
 
@@ -71,7 +71,3 @@ console.log(z.fullName());
 ## Homework
 
 https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/07-blog
-
-## Blog Entry
-
-Tonight I would like for you to blog about what the hardest part of HTML and CSS has been so far.
