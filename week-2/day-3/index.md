@@ -60,12 +60,10 @@ console.log(z.fullName());
 ## Lab
 
 - [Font Awesome & SASS](font-awesome-sass.html)
-- [Jekyll Blog](jekyll.html)
-- [Github Pages](gh-page.html)
 
 ## Resources
 
-- [Project Structure Updates](../../resources/project-structure)
+- [Project Structure Updates](../../resources/project-structure.html)
 
 ## Homework
 
