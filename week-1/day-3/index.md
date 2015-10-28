@@ -43,7 +43,7 @@ console.log(x + b);
 * [CSS Pseudo Selectors](pseudo-selectors.html)
 * [CSS `attr` value](attr.html)
 * [CSS Position](position.html)
-* [CSS Centering](centering.html)
+* [CSS Transform](transform.html)
 
 ## Exercise & Lesson Code
 
