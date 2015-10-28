@@ -4,8 +4,9 @@
       var $this = $(this);
       var positionable = $this.parent('.positionable');
       var property = $this.data('property');
+      var unit = $this.data('unit');
 
-      positionable.css(property, $this.val() + 'px');
+      positionable.css(property, $this.val() + unit);
     });
 
     $('.toggle-examples__btn').on('click', function() {

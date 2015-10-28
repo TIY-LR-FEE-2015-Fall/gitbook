@@ -34,22 +34,50 @@ The `top`, `bottom`, `left`, and `right` match the specified edge to that same e
 So `position: fixed; top: 0; right: 0;` will "pin" the element to the top right of the viewport.
 See the example one on this page?
 
+`position: fixed` elements are on a whole different plane from static and relatively positioned elements.
+This means that when it comes time to figure out where to draw elements on the page, it ignores anything that is `position: fixed`.
+So it doesn't take up room within the parent element.
+
 ## `position: absolute`
 
-Absolute positioning is
+Absolute positioning allows elements to be positioned absolutely in comparison to other elements on the page.
+The way this works is that element looks for the first parent element that isn't `position: static` and then uses that to compare where to position the current element.
+From there, the `top`, `bottom`, `left`, and `right` work much in the same way as `position: fixed` does except instead of comparing to the edge of the viewport, the element is positioned comparing to the edge of the non-static parent element.
+
+> **NOTE** if all parent elements are statically positioned, then the element will position itself in comparison to the `body` element. This is different from `display: fixed` since scrolling WILL effect the elements position. See the yellow example in the top left (you may need to scroll up).
 
 
 <div class="positionable fixed-example">
   <pre>position: fixed;</pre>
-  <input type="number" step="5" value="0" data-property="top">
-  <input type="number" step="5" value="0" data-property="right">
+  <input type="number" step="5" value="0" data-property="top" data-unit="px">
+  <input type="number" step="5" value="0" data-property="right" data-unit="px">
+</div>
+
+<div class="positionable page-absolute-example">
+  <pre>position: absolute;
+transform: translateX(100%);</pre>
+  <p>Positioning uses %</p>
+  <input type="number" step="5" value="0" data-property="top" data-unit="%">
+  <input type="number" step="5" value="100" data-property="right" data-unit="%">
+</div>
+
+<div class="positionable relative-parent">
+  <pre>position: relative;</pre>
+  <p>I'm the only thing that gives my parent it's size!</p>
+
+  <div class="positionable absolute-example">
+    <pre>position: absolute;</pre>
+    <pre>Positions to bottom instead of top</pre>
+    <input type="number" step="5" value="0" data-property="bottom" data-unit="px">
+    <input type="number" step="5" value="0" data-property="right" data-unit="px">
+  </div>
 </div>
 
 <div class="positionable relative-move-parent">
   <div class="positionable relative-move-example">
     <pre>position: relative;</pre>
-    <input type="number" step="5" value="0" data-property="top">
-    <input type="number" step="5" value="0" data-property="right">
+    <input type="number" step="5" value="0" data-property="top" data-unit="px">
+    <input type="number" step="5" value="0" data-property="right" data-unit="px">
   </div>
   <p>I'm might get covered up</p>
 </div>
@@ -74,6 +102,27 @@ Absolute positioning is
     top: 0;
     right: 0;
     background: red;
+  }
+
+  .page-absolute-example {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background: yellow;
+    transform: translateX(100%);
+  }
+
+  .relative-parent {
+    margin: 10rem auto;
+    background: red;
+    position: relative;
+  }
+
+  .absolute-example {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: blue;
   }
 
   .relative-move-parent {
