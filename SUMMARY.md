@@ -31,6 +31,7 @@
       * [CSS Pseudo Selectors](week-1/day-3/pseudo-selectors.md)
       * [CSS attr](week-1/day-3/attr.md)
       * [CSS position](week-1/day-3/position.md)
+      * [CSS transform](week-1/day-3/transform.md)
     + [Day 4](week-1/day-4/index.md)
       * [Layout Planning](week-1/day-4/layout-planning.md)
   - Week 2
