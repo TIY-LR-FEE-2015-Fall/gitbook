@@ -1,4 +1,4 @@
-<script src="/js/position.js">
+<script src="../../js/position.js">
 </script>
 
 # CSS Positioning
@@ -84,6 +84,7 @@ transform: translateX(100%);</pre>
 
 <style>
   .toggle-examples {
+    z-index: 99;
     position: fixed;
     bottom: 1rem;
     right: 1rem;
