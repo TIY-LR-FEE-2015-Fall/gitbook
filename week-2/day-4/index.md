@@ -52,21 +52,26 @@ console.log(z.fullName());
 
 ## Topics
 
-- [SASS Builds](sass-build.md)
-- [SASS Imports](sass-imports.md)
-- [SASS Variables & Math](sass-variables.md)
-- [SASS Functions](sass-functions.md)
+- [SASS Mixins](mixins.html)
+- [Bower](bower.html)
+- [Bourbon](bourbon.html)
+- [Neat](neat.html)
+- [Deploying To Github Pages With Broccoli](gh-page.html)
 
 ## Lab
 
-- [Font Awesome & SASS](font-awesome-sass.html)
 - [Jekyll Blog](jekyll.html)
 - [Github Pages](gh-page.html)
 
 ## Resources
 
-- [Project Structure Updates](../../resources/project-structure)
+- [Bourbon Docs](http://bourbon.io/)
+- [Neat Docs](http://neat.bourbon.io/)
 
 ## Homework
 
-https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/08-beer-layout
+https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/07-blog
+
+## Blog Entry
+
+Tonight I would like for you to blog about what the hardest part of HTML and CSS has been so far.

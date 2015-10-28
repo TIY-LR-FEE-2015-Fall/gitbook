@@ -40,6 +40,40 @@ Would output:
 
     module.exports = new Merge(['public', 'assets'], {overwrite: true});
 
+  # `broccoli-sass`
+
+  CSS can be really tough to set up, SASS allows us to use things like variables, functions, and third party dependencies.
+  Broccoli SASS allows us to compile a single source file into a final destination.
+
+  The `broccoli-sass` plugin takes in a few different arguments:
+
+  * An array of folders names or input trees that contain SASS needed for the app
+  * An input SASS file name to start: this is relative to the first tree in the above array
+  * An output CSS file name
+
+
+  Here is an example `Brocfile.js`:
+
+      var Sass = require('broccoli-sass');
+
+      module.exports = new Sass(['sass', 'bower_components/reset-css'], 'app.scss', 'app.css');
+
+  A project that looks like this:
+
+      /
+      |-bower_components/
+      | |-reset-css/
+      | | |-reset.scss
+      |-sass/
+      | |-app.scss
+
+  Would output:
+
+      /
+      |-app.css
+
+  In your `app.scss` you could now `@import 'reset'` to pull in the contents of `bower_components/reset-css/reset.scss` into your final compiled `app.css` file.
+
 <!-- # `broccoli-funnel`
 
 Broccoli Funnel allows you to pull only a small amount of files from a directory and send them to your final build.
@@ -70,40 +104,6 @@ Would output:
     |-jquery/
     | |-dist/
     | | |-jquery.js
-
-# `broccoli-sass`
-
-CSS can be really tough to set up, SASS allows us to use things like variables, functions, and third party dependencies.
-Broccoli SASS allows us to compile a single source file into a final destination.
-
-The `broccoli-sass` plugin takes in a few different arguments:
-
-* An array of folders names or input trees that contain SASS needed for the app
-* An input SASS file name to start: this is relative to the first tree in the above array
-* An output CSS file name
-
-
-Here is an example `Brocfile.js`:
-
-    var sass = require('broccoli-sass');
-
-    module.exports = sass(['assets', 'bower_components/reset-css'], 'app.scss', 'app.css');
-
-A project that looks like this:
-
-    /
-    |-bower_components/
-    | |-reset-css/
-    | | |-reset.scss
-    |-assets/
-    | |-app.scss
-
-Would output:
-
-    /
-    |-app.css
-
-In your `app.scss` you could now `@import 'reset'` to pull in the contents of `bower_components/reset-css/reset.scss` into your final compiled `app.css` file.
 
 # `broccoli-inject-livereload`
 

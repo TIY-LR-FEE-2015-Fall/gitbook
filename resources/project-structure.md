@@ -8,7 +8,8 @@ Here are the files that should appear as the boilerplate on the `master` branch 
     |-package.json
     |-public/
     | |-index.html
-    | |-app.css
+    |-sass/
+    | |-app.scss
 
 ## Example `.gitignore`
 
@@ -37,6 +38,7 @@ A few example npm packages we've used are:
 
 * `broccoli`
 * `broccoli-merge-trees`
+* `broccoli-sass`
 
 ## Example `public/index.html`
 
