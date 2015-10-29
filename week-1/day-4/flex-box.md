@@ -198,3 +198,145 @@ So, by changing the `flex-wrap` on our parent div, we can get our "Three Up" to 
   <p style="padding: 1rem; flex: 1 0 33%; background: blue; color: white;">Child</p>
 </div>
 ```
+
+Now we are fighting our own `flex-grow` property.
+Since the Fourth item drops to the next row, it then tries to take up the full row since that is what `flex-grow` does!
+So let's change `flex-grow` to `0`:
+
+<div style="display: flex; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+```html
+<div style="display: flex; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+```
+
+Right now this probably doesn't seem too different than floats, but compare the difference in the grid item heights:
+
+<div style="background: red;">
+  <p style="width: 33%; float: left; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="width: 33%; float: left; background: blue; color: white;">Child</p>
+  <p style="width: 33%; float: left; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="width: 33%; float: left; background: blue; color: white;">Child</p>
+  <p style="width: 33%; float: left; background: white; color: blue;">Child</p>
+</div>
+
+```html
+<div style="background: red;">
+  <p style="width: 33%; float: left; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="width: 33%; float: left; background: blue; color: white;">Child</p>
+  <p style="width: 33%; float: left; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="width: 33%; float: left; background: blue; color: white;">Child</p>
+  <p style="width: 33%; float: left; background: white; color: blue;">Child</p>
+</div>
+```
+
+## `align-items`
+
+Notice in the float example, the grid items aren't the same height, instead they are only as tall as the content that we put inside.
+By using flexbox, all of our grid items will be the same height.
+To change this, we can change the `align-items` property on the Flex Container.
+
+### `stretch`
+
+`stretch` is the default and makes all items span the same height (assuming `flex-direction: row`).
+
+<div style="display: flex; align-items: stretch; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+### `flex-start`
+
+`flex-start` aligns the top edge of our flex items (assuming `flex-direction: row`).
+
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+### `flex-end`
+
+`flex-end` aligns the bottom edge of our flex items (assuming `flex-direction: row`).
+
+<div style="display: flex; align-items: flex-end; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+### `center`
+
+`center` lines up the center of the different items (assuming `flex-direction: row`).
+
+<div style="display: flex; align-items: center; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+## Justifying content
+
+When working with grids, there are times where we may not have an even amount of items to divide into rows.
+When we had five items, we could expand across the last row by leaving `flex-grow` something other than `0`.
+But there are other things that we can do too.
+
+### `justify-content: flex-end`:
+
+<div style="display: flex; justify-content: flex-end; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+### `justify-content: center`:
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+### `justify-content: space-between`:
+
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
+### `justify-content: space-around`:
+
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
