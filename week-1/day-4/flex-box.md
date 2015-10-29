@@ -295,6 +295,19 @@ To change this, we can change the `align-items` property on the Flex Container.
   <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
 </div>
 
+## `align-self`
+
+When working with aligned flex items, there are times where you may want to break out of default `align-items` that is set by the parent.
+In this example, the third item uses `align-items: flex-end` to pin to the bottom instead of the `center` value specified by the parent flex container.
+
+<div style="display: flex; align-items: center; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; align-self: flex-end; flex: 0 0 33%; background: white; color: blue;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+
 ## Justifying content
 
 When working with grids, there are times where we may not have an even amount of items to divide into rows.
