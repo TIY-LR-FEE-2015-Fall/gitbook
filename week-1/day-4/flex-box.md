@@ -308,6 +308,16 @@ In this example, the third item uses `align-items: flex-end` to pin to the botto
   <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
 </div>
 
+```html
+<div style="display: flex; align-items: center; flex-wrap: wrap; background: red;">
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child Child Child Child Child Child Child Child Child</p>
+  <p style="padding: 1rem; align-self: flex-end; flex: 0 0 33%; background: white; color: blue;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: blue; color: white;">Child</p>
+  <p style="padding: 1rem; flex: 0 0 33%; background: white; color: blue;">Child</p>
+</div>
+```
+
 ## Justifying content
 
 When working with grids, there are times where we may not have an even amount of items to divide into rows.
