@@ -6,7 +6,9 @@
 ### Logic and "Truthiness"
 
 ```js
-var x = 10;
+var hi = false;
+
+var x = 20;
 
 var y = function(wat) {
   console.log(wat);
@@ -14,7 +16,7 @@ var y = function(wat) {
   return wat === 10;
 };
 
-var z = 'no';
+var z = 'false';
 
 var a = (foo) => {
   if (foo) {
@@ -24,6 +26,14 @@ var a = (foo) => {
 
 if (x) {
   console.log(`x is truthy?`);
+}
+
+if (hi) {
+  console.log(`hi is truthy?`);
+}
+
+if (noexist) {
+  console.log(`noexist is truthy?`);
 }
 
 if (y) {
@@ -52,8 +62,26 @@ if (a(10)) {
 
 
 /* Results */
-
+// "x is truthy?"
+// REFERENCE ERROR (noexist is not defined)
+// "y is truthy?"
+// "z is truthy?"
+// "10"
+// "a works with 10"
 ```
+
+| Truthy                | Falsey         |
+| :-------------        | :------------- |
+| true                  | false          |
+| all numbers except 0  | 0              |
+| all non-empty strings | ''             |
+| all objects           | undefined**    |
+| all arrays            |                |
+| functions*            |                |
+
+
+\* talking about functions not the actual evaluated values when a function is called
+\*\* when undefined doesn't throw a reference error
 
 ## Topics
 
