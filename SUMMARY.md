@@ -44,6 +44,7 @@
       * [Broccoli](week-2/day-2/broccoli.md)
     + [Day 3](week-2/day-3/index.md)
       * [Font Awesome & SASS](week-2/day-3/font-awesome-sass.md)
+    + [Day 4](week-2/day-4/index.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Homework Preflight Checklist](resources/homework-startup-guide.md)

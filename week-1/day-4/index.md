@@ -43,7 +43,6 @@ console.log(c === d);
 * [Layout Techniques](layout-techniques.html)
 * [Flex Box](flex-box.html)
 * [Media Queries](media-queries.html)
-* [Mobile Chrome Dev Tools](chrome-dev-tools.html)
 
 ## Exercise & Lesson Code
 
