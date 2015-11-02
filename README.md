@@ -24,13 +24,13 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
 * Week 2
     - Bower
     - Responsive CSS
-    - Hosting (Github Pages vs Divshot)
     - Build Tools
     - SASS
     - Bourbon
     - Neat
 * Week 3
-    - Javascript Variables and Control Structures
+    - JS Syntax
+    - Variable Hoisting
     - Scope & `this`
     - Basic Javascript with the DOM
     - Developer Tools & Debugging (Source and Console)
