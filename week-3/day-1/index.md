@@ -6,7 +6,10 @@
 ### Value vs Reference
 
 ```js
-var x = 10;
+// Variable Creation
+var x;
+// Variable Assignment
+x = 10;
 var y = x;
 y = 12;
 
@@ -57,8 +60,11 @@ console.log(c);
 - [Javascript Syntax Vocab](js-vocab.html)
 - [Variable Scope](scope.html)
 - [Hoisting and Variables](hoisting.html)
+- [Node & Nodemon](node.html)
 
 ## Code
+
+- [Basic Example](example.html)
 
 https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-01
 

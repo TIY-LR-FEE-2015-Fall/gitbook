@@ -48,6 +48,8 @@
   - Week 3
     + [Day 1](week-3/day-1/index.md)
       * [JS Vocab](week-3/day-1/js-vocab.md)
+      * [JS Example](week-3/day-1/example.md)
+      * [Challenges](week-3/day-1/challenges.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Homework Preflight Checklist](resources/homework-startup-guide.md)
