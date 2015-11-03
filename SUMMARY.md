@@ -48,6 +48,7 @@
   - Week 3
     + [Day 1](week-3/day-1/index.md)
       * [JS Vocab](week-3/day-1/js-vocab.md)
+      * [JS Scope](week-3/day-1/scope.md)
       * [JS Example](week-3/day-1/example.md)
       * [Challenges](week-3/day-1/challenges.md)
     + [Day 2](week-3/day-2/index.md)
