@@ -32,7 +32,7 @@ console.assert(digitize(8675309)[6] === 9);
 
 - [Callbacks](callback.js)
 
-## Class & Lab
+## Class & Lab & Homework
 
 Today while I am out, work on your homewok (most of it should be graded up to last night), then read through the resources here in the Gitbook.
 I expect for you to have questions and a list of topics that you would like to review or that I need to finish writing here in the Gitbook.
