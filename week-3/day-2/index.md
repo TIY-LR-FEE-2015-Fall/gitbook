@@ -48,6 +48,6 @@ First watch these videos on a few of the different Array functions that are avai
 * https://egghead.io/lessons/javascript-chaining-the-array-map-and-filter-methods
 * https://egghead.io/lessons/javascript-create-an-array-concatall-method
 
-Today while I am out, work on your homewok (most of it should be graded up to last night), then read through the resources here in the Gitbook.
+Today while I am out, work on your homework (most of it should be graded up to last night), then read through the resources here in the Gitbook.
 I expect for you to have questions and a list of topics that you would like to review or that I need to finish writing here in the Gitbook.
 Slack me these in a direct message.
