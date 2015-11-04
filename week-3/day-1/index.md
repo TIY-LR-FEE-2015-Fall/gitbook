@@ -60,7 +60,7 @@ console.log(c);
 - [Javascript Syntax Vocab](js-vocab.html)
 - [Variable Scope](scope.html)
 - [Hoisting and Variables](hoisting.html)
-- [Node & Nodemon](node.html)
+- [Node](node.html)
 
 ## Code
 

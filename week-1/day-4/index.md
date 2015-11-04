@@ -40,7 +40,7 @@ console.log(c === d);
 
 * [Example Layout](https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/stage4.png)
 * [Breaking Down a Layout](layout-planning.html)
-* [Layout Techniques](layout-techniques.html)
+* [Layout Techniques](layout-tricks.html)
 * [Flex Box](flex-box.html)
 * [Media Queries](media-queries.html)
 

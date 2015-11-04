@@ -31,15 +31,13 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
 * Week 3
     - JS Syntax
     - Variable Hoisting
-    - Scope & `this`
+    - Scope
+    - JSCS and JSHint
     - Basic Javascript with the DOM
     - Developer Tools & Debugging (Source and Console)
-    - Arrays and Objects
 * Week 4
-    - JSCS
-    - array.forEach
-    - Prototypes
     - jQuery basics
+    - Prototypes
     - Underscore & shims
     - Functional Programming
     - What is Application State?
