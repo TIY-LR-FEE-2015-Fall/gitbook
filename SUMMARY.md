@@ -50,6 +50,7 @@
       * [JS Vocab](week-3/day-1/js-vocab.md)
       * [JS Scope](week-3/day-1/scope.md)
       * [JS Hoisting](week-3/day-1/hoisting.md)
+      * [Node](week-3/day-1/node.md)
       * [JS Example](week-3/day-1/example.md)
       * [Challenges](week-3/day-1/challenges.md)
     + [Day 2](week-3/day-2/index.md)
