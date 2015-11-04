@@ -66,7 +66,7 @@ console.log(c);
 
 - [Basic Example](example.html)
 
-https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-01
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-03-01
 
 ## Homework
 

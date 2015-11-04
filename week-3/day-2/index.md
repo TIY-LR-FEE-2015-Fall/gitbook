@@ -28,10 +28,6 @@ console.assert(digitize(123)[0] === 1);
 console.assert(digitize(8675309)[6] === 9);
 ```
 
-## Topics
-
-- [Callbacks](callback.js)
-
 ## Class & Lab & Homework
 
 ### Videos
