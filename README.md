@@ -32,14 +32,15 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
     - JS Syntax
     - Variable Hoisting
     - Scope
-    - JSCS and JSHint
     - Basic Javascript with the DOM
     - Developer Tools & Debugging (Source and Console)
+    - Functional Programming
+    - Express.js Intro
 * Week 4
+    - JSCS and JSHint
     - jQuery basics
     - Prototypes
     - Underscore & shims
-    - Functional Programming
     - What is Application State?
     - Events
 * Week 5

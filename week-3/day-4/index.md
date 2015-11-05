@@ -20,7 +20,7 @@ var upperLimit = max(2, 200);
 var upperLimitTwo = max(2000, 15);
 
 console.assert(upperLimit === 200);
-console.assert(upperLimit === 2000);
+console.assert(upperLimitTwo === 2000);
 ```
 
 ## Topics
@@ -29,13 +29,16 @@ console.assert(upperLimit === 2000);
   * [Spreads](es6.html#spread)
   * [Destructuring](es6.html#destructuring)
   * [`const` and `let`](es6.html#const-and-let)
-- [Objects & Prototypes](prototypes.html)
+- [Modules](modules.html)
+- [Express Intro](express.html)
 
 ## Code
 
 https://github.com/TIY-LR-FEE-2015-Fall/lesson-03-04
 
 ## Lab
+
+- [Array Functions](array-fns.html)
 
 ## Homework
 
