@@ -36,7 +36,7 @@ document.querySelector('.alert-innerhtml').addEventListener('click', function() 
 If we assign the `innerHTML` property, we can change the text of the HTMLElement:
 
 ```js
-alert(superman.innerHTML);
+superman.innerHTML = `Changed`;
 ```
 
 <button class="change-innerhtml">Change `innerHTML`</button>
@@ -46,3 +46,34 @@ document.querySelector('.change-innerhtml').addEventListener('click', function()
   superman.innerHTML = `Changed`;
 });
 </script>
+
+## `style`
+
+On all elements, there is a `style` object that allows us to see modify the inline styles for the current element.
+Changing these allows let's us make incremental changes to the style of elements.
+
+```js
+superman.style.color = `red`;
+```
+
+<button class="change-color">Change `style.color`</button>
+
+<script>
+document.querySelector('.change-color').addEventListener('click', function() {
+  superman.style.color = `red`;
+});
+</script>
+
+```js
+superman.style.background = `blue`;
+```
+
+<button class="change-background">Change `style.background`</button>
+
+<script>
+document.querySelector('.change-background').addEventListener('click', function() {
+  superman.style.background = `blue`;
+});
+</script>
+
+> **NOTE** the JS HTMLElement style object should be used for small changes where dynamic data may be needed.For larger changes or transitions, we may want to use classes instead so that all changes can be kept in one spot in our CSS instead of leaving brittle changes in our JS.
