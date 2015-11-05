@@ -31,7 +31,7 @@ console.assert(twoPlusTwo === 4);
 - [Working with Elements](js-elements.html)
   * innerHTML
   * style
-- [Event Listeners](events.html)
+- [Event Listeners](eventlistener.html)
 - [Timing Things](timing.html)
   * setTimeout
   * setInterval
