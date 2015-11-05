@@ -56,6 +56,7 @@
       * [Challenges](week-3/day-1/challenges.md)
     + [Day 2](week-3/day-2/index.md)
     + [Day 3](week-3/day-3/index.md)
+      * [Challenges](week-3/day-3/query-selector.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Homework Preflight Checklist](resources/homework-startup-guide.md)

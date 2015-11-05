@@ -27,12 +27,14 @@ console.assert(twoPlusTwo === 4);
 
 ## Topics
 
-- [document.querySelector](dash.html)
-- [Working with Elements](element-properties.html)
+- [document.querySelector](query-selector.html)
+- [Working with Elements](js-elements.html)
   * style
   * classList
   * innerHTML
 - [Timing Things](timing.html)
+  * setTimeout
+  * setInterval
 - [Events](events.html)
 
 ## Code
@@ -41,6 +43,7 @@ https://github.com/TIY-LR-FEE-2015-Fall/lesson-03-03
 
 ## Lab
 
+* [JS Syntax](js-syntax.html)
 * [Event Loop Video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [Positioning Review](positioning-review.html)
 * [Flex Review](flex-review.html)
