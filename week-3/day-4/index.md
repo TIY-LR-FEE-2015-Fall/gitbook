@@ -12,12 +12,12 @@ Define a function max() that takes two numbers as arguments and returns the larg
 Use your whiteboards to write this out:
 
 ```js
-function max() {
+function maxTwo() {
 
 }
 
-var upperLimit = max(2, 200);
-var upperLimitTwo = max(2000, 15);
+var upperLimit = maxTwo(2, 200);
+var upperLimitTwo = maxTwo(2000, 15);
 
 console.assert(upperLimit === 200);
 console.assert(upperLimitTwo === 2000);
