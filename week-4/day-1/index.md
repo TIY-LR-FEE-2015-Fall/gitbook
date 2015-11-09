@@ -1,28 +1,30 @@
-# Monday November 9
+# Tuesday November 10
 
 
 ## Daily JS
 
 ### DOM Manipulation
 
-In the current dom, there is an `h2` element with a class of `change-me`.
-Write code to make this element say "Hi there Javascript" and have red text.
-
-<h2 class="change-me">Hello HTML</h2>
+The following code is from an app where the speed of a car is accelerated using the `accelerate` function.
+But, right now the code is broken, if we call `accelerate()` without passing in any arguments, `speed` will be set to `NaN`.
+Try to explain why this is and rewrite the `accelerate` function to fix this error.
 
 ```js
+var speed = 0;
 
+function accelerate(amount) {
+  speed += amount;
+}
 ```
 
 ## Topics
 
-- [Servers and Clients](server.html)
-- [Basic Web Server](basic-server.html)
-- [Express.js](express.html)
+- [Application State](app-state.html)
+- [Objects & Prototypes](prototypes.html)
 
 ## Code
 
-https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-01
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-02
 
 ## Homework
 
