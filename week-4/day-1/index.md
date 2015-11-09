@@ -12,15 +12,57 @@ Try to explain why this is and rewrite the `accelerate` function to fix this err
 ```js
 var speed = 0;
 
+/* Original */
+// function accelerate(amount) {
+//   if (amount === undefined) {
+//     amount = 0;
+//   }
+//
+//   speed += amount;
+// }
+
 function accelerate(amount) {
+  if (amount === undefined) {
+    amount = 0;
+  }
+
   speed += amount;
 }
+
+accelerate(5); // speed is 5
+accelerate(); // speed is NaN
 ```
+
+When no argument is sent to the `accelerate` function then `amount` will be `undefined`.
+`undefined` plus a number gives a result of `NaN`.
+
+## Examples
+
+Using `reduce` only to perform a filter then map.
+These two statements would return the same result.
+
+```js
+characters.filter((item) => {
+  return item.age > 12;
+}).map((item) => {
+  return item.name;
+});
+
+characters.reduce((carry, item) => {
+  if (item.age > 12) {
+    carry.push(item.name);
+  }
+
+  return carry;
+}, []);
+```
+
 
 ## Topics
 
-- [Application State](app-state.html)
-- [Objects & Prototypes](prototypes.html)
+- [Objects](objects.html)
+- [Constructors](constructors.html)
+- [Prototypes](prototypes.html)
 
 ## Code
 
