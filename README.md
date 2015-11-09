@@ -33,16 +33,18 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
     - Variable Hoisting
     - Scope
     - Basic Javascript with the DOM
+    - Eventslisteners
     - Developer Tools & Debugging (Source and Console)
-    - Functional Programming
-    - Express.js Intro
+    - Array Functions
+      - `map`, `reduce`, `filter`, `forEach`
 * Week 4
-    - JSCS and JSHint
-    - jQuery basics
-    - Prototypes
-    - Underscore & shims
+    - Web Servers
+      - Express.js
     - What is Application State?
-    - Events
+    - Prototypes
+    - Handlebars
+    - Underscore & extends
+    - jQuery basics
 * Week 5
     - More events
     - AJAX
