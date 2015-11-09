@@ -60,6 +60,7 @@
       * [JS Elements](week-3/day-3/js-elements.md)
       * [Event Listeners](week-3/day-3/eventlistener.md)
     + [Day 3](week-3/day-4/index.md)
+    + [Day 4](week-3/day-4/index.md)
   - Week 4
     + [Day 1](week-4/day-1/index.md)
       * [Basic Node Servers](week-4/day-1/basic-server.md)
