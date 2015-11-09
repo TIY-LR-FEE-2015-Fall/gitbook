@@ -22,7 +22,7 @@ Write code to make this element say "Hi there Javascript" and have red text.
 
 ## Code
 
-https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-01
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-02
 
 ## Homework
 

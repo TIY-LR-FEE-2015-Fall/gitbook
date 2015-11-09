@@ -66,7 +66,7 @@ characters.reduce((carry, item) => {
 
 ## Code
 
-https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-02
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-01
 
 ## Homework
 
