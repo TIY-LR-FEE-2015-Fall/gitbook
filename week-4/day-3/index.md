@@ -11,10 +11,7 @@ Write code to make this element say "Hi there Javascript" and have red text.
 <h2 class="change-me">Hello HTML</h2>
 
 ```js
-var change = document.querySelector('.change-me');
 
-change.innerHTML = 'Hi there Javascript';
-change.style.color = 'red';
 ```
 
 ## Topics
