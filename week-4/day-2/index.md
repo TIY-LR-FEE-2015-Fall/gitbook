@@ -16,14 +16,13 @@ Write code to make this element say "Hi there Javascript" and have red text.
 
 ## Topics
 
-- [Servers and Clients](server.html)
-- [Basic Web Server](basic-server.html)
-- [Express.js](express.html)
+- OOP
+- OOP and the DOM
+- Babel
+- Modules
 
 ## Code
 
 https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-02
 
 ## Homework
-
-https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/10-hoisting
