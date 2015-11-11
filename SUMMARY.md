@@ -64,6 +64,7 @@
   - Week 4
     + [Day 1](week-4/day-1/index.md)
       * [Basic Node Servers](week-4/day-1/basic-server.md)
+    + [Day 2](week-4/day-2/index.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Shell Prompt](resources/shell.md)
