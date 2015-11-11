@@ -21,11 +21,12 @@ change.style.color = 'red';
 
 - OOP
 - OOP and the DOM
-- Babel
-- Modules
 
 ## Code
 
 https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-02
 
 ## Homework
+
+
+https://github.com/TIY-LR-FEE-2015-Fall/assignments/14-koans
