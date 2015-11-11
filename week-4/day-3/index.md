@@ -5,24 +5,37 @@
 
 ### DOM Manipulation
 
-In the current dom, there is an `h2` element with a class of `change-me`.
-Write code to make this element say "Hi there Javascript" and have red text.
+Write a class/Constructor called Pokemon
 
-<h2 class="change-me">Hello HTML</h2>
+A Pokemon should have
+- A constructor with `name` and `hp` arguments
+- An `attack` method that returns half of the current Pokemon's `hp`
 
 ```js
+function Pokemon(name, hp) {
+  this.name = name;
+  this.hp = hp;
+}
 
+Pokemon.prototype.attack = function() {
+  return this.hp / 2;
+}
+
+var charmander = new Pokemon('Charmander', 14);
+console.log(charmander.attack()); // 7
 ```
 
 ## Topics
 
-- OOP
-- OOP and the DOM
+- Attention & Productivity Hacks
+- jQuery
 - Babel
 - Modules
 
 ## Code
 
-https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-02
+https://github.com/TIY-LR-FEE-2015-Fall/lesson-04-03
 
 ## Homework
+
+https://github.com/TIY-LR-FEE-2015-Fall/assignments/14-jquery-ui
