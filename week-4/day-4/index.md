@@ -10,7 +10,13 @@ when the user clicks on the button:
 http://codepen.io/rtablada/pen/GpPZgZ?editors=001
 
 ```js
+var btn = $('button').on('click', function() {
+  // This would change the text of all buttons
+  // btn.html('<h1>Superman</h1>');
 
+  // This changes the text of only the current button clicked
+  $(this).html('<h1>Superman</h1>');
+});
 ```
 
 ## Topics
