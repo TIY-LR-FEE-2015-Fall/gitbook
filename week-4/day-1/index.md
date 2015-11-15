@@ -1,4 +1,4 @@
-# Tuesday November 10
+# Monday November 10
 
 
 ## Daily JS
