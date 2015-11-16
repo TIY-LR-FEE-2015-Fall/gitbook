@@ -46,7 +46,7 @@ I really want you to focus on the AJAX part since we will be covering the topic 
 > **NOTE** when looking at the `click`, `mousedown`, etc: it is better practice to use `on('click')` or `on('mousedown')`, etc.
 
 * Work as a class to work through the homework assignment for tonight
-  * https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/16-like-button
+  * https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/exercises/jquery/like-button
 
 This is an opportunity to take time and learn from each other.
 This will also give time to realize there are somethings that you know and can REALLY learn by helping to explain to each other.
