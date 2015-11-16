@@ -21,6 +21,12 @@ console.assert(paginationText(3, 10, 26) === 'Showing 21 to 26 of 26 Products.')
 console.assert(paginationText(1, 10,  8) === 'Showing 1 to 8 of 8 Products.')
 ```
 
+## Review
+
+Looking through the "Adventures in the DOM" exercise:
+
+* https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/exercises/jquery/adventures-in-the-dom
+
 ## Assignment
 
 Today there are a few things I want you to do:
