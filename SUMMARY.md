@@ -70,6 +70,8 @@
   - Week 5
     + [Day 1](week-5/day-1/index.md)
     + [Day 2](week-5/day-2/index.md)
+    + [Day 3](week-5/day-3/index.md)
+    + [Day 4](week-5/day-4/index.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Shell Prompt](resources/shell.md)
