@@ -38,7 +38,9 @@ Use jQuery
 ```
 
 ```js
-
+$('.dropdown').on('click', function() {
+  $(this).find('.dropdown__content').slideToggle();
+});
 ```
 
 ## Topics
