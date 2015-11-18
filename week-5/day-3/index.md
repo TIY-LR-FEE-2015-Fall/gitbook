@@ -7,6 +7,10 @@
 
 Given the following HTML make the `.dropdown__content` show up when the parent `.dropdown` is clicked on.
 
+http://codepen.io/rtablada/pen/GpegjX#0
+
+Use jQuery
+
 ```html
 <ul>
   <li class="dropdown">
@@ -37,10 +41,9 @@ Given the following HTML make the `.dropdown__content` show up when the parent `
 
 ```
 
-http://codepen.io/rtablada/pen/GpegjX#0
-
 ## Topics
 
+* Backbone Project Scaffold
 * Backbone Views
 * REST
 * Backbone Model
