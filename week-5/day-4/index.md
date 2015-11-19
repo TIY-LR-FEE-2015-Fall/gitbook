@@ -2,6 +2,12 @@
 
 ## Topics
 
+* Backbone Events
+  * `change`
+  * `sync`
+* Backbone `get` & `set`
+* Backbone.Model `idAttribute`
+* Backbone Item Views
 * Backbone Routes
 * Routing Patterns
 
