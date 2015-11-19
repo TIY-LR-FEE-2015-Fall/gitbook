@@ -72,6 +72,10 @@
     + [Day 2](week-5/day-2/index.md)
     + [Day 3](week-5/day-3/index.md)
     + [Day 4](week-5/day-4/index.md)
+* Backbone
+  - [Common Route Patterns](backbone/common-router.md)
+  - [Common View Patterns](backbone/common-views.md)
+  - [More Resources](backbone/starting-reading.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Shell Prompt](resources/shell.md)

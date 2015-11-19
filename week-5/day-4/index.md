@@ -9,7 +9,11 @@
 * Backbone.Model `idAttribute`
 * Backbone Item Views
 * Backbone Routes
-* Routing Patterns
+* Routing & View Patterns
+  * Collection View
+  * Collection Route
+  * Item View
+  * Item Route
 
 ## Code
 
