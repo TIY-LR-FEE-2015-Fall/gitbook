@@ -3,6 +3,7 @@
 ## Topics
 
 * Backbone Routes Details
+* jQuery Filtering
 * Data Attributes
 * Truth !== DOM w/o Backbone
   * Basic Calculator
