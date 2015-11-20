@@ -15,7 +15,7 @@ Since the `initialize` function is run whenever you instantiate the router, thes
 So, assume you have a sidebar of contacts:
 
 ```js
-var AppRouter = Backbone.Router.extend({
+export default Backbone.Router.extend({
   initialize: function() {
     /**
      * Let's assume that ContactList extends Backbone.Collection
@@ -51,7 +51,7 @@ Instead if your views are all set up to listen for `change` and `sync` events, t
 Let's say that you had an index view that showed a list of filtered results from the main collection above:
 
 ```js
-var AppRouter = Backbone.Router.extend({
+export default Backbone.Router.extend({
   initialize: function() {
     this.contacts = new ContactList();
     this.sidebar = new Sidebar({collection: this.contacts});
@@ -143,7 +143,7 @@ Instead you can leverage the same events that your views are listening to and us
 To do this you will need to put the above code in a function that can be run BOTH immediately (in case the app is already booted) and when a collection `sync` event fires.
 
 ```js
-var AppRouter = Backbone.Router.extend({
+export default Backbone.Router.extend({
     initialize: function() {
         this.contacts = new ContactList();
         this.sidebar = new Sidebar({collection: this.contacts});
@@ -212,7 +212,7 @@ This can be used to filter collections to search and look for things.
 For instance, we can setup this search function to set things up for titles that match the search term in the url
 
 ```js
-var AppRouter = Backbone.Router.extend({
+export default Backbone.Router.extend({
   initialize: function() {
     this.contacts = new ContactList();
     this.sidebar = new Sidebar({collection: this.contacts});
@@ -288,7 +288,7 @@ var AppRouter = Backbone.Router.extend({
 Since the search and index are so similar, this can actually be modified to share the search function by just updating the filter to return true if there is no term.
 
 ```js
-var AppRouter = Backbone.Router.extend({
+export default Backbone.Router.extend({
   initialize: function() {
     this.contacts = new ContactList();
     this.sidebar = new Sidebar({collection: this.contacts});
