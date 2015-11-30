@@ -22,3 +22,8 @@
 * Backbone Marionette (20mins)
 * Refactor Exercise C (20mins)
 * Refactor Exercise D (20mins)
+
+## Homework
+
+* https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/17-login-form
+* https://github.com/TIY-LR-FEE-2015-Fall/assignments/tree/master/18-run-timer
