@@ -75,6 +75,7 @@
     + [Day 5](week-5/day-5/index.md)
   - Week 7
     + [Day 1](week-7/day-1/index.md)
+    + [Day 2](week-7/day-2/index.md)
 * Backbone
   - [Common Route Patterns](backbone/common-router.md)
   - [Common View Patterns](backbone/common-views.md)
