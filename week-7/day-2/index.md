@@ -33,4 +33,6 @@ Run About Applying What We Have Learnt
   * Attributes `attrs`
 
 
-## Goal App
+## Reading
+
+* [Ember vs Backbone Primer](../ember/primer.html)
