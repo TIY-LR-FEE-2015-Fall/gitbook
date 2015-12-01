@@ -80,6 +80,8 @@
   - [Common Route Patterns](backbone/common-router.md)
   - [Common View Patterns](backbone/common-views.md)
   - [More Resources](backbone/starting-reading.md)
+* Ember
+  - [Primer](ember/primer.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Shell Prompt](resources/shell.md)
