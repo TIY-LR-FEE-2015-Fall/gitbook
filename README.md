@@ -49,24 +49,24 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
     - More events
     - AJAX
     - Testing JS
-* Week 6
     - Backbone Models & Collections
     - Backbone Views
     - Backbone Routing
-    - Node and Heroku
-        + JSON Server
-    - Node and Heroku
-    - // Estimates, Pivotal Tracker, and other Tools
+* Week 6
+    - Ember Routes
+    - Ember Components
+    - Ember Data
+    - // Trello
 * Week 7
     - Express.js
-    - Ember.Object & Services
-        + Computed Properties
-    - Ember Components
-    - Ember Routing
-    - Firebase/Parse
+    - MongoDB
+    - // Estimates, Pivotal Tracker, and other Tools
 * Week 8
-    - Ember Data
-    - Prototyping with Materialize
+    - Advanced Ember Data
+    - Ember Addons
+    - Ember Testing
+      + Unit Tests
+      + Acceptance Tests
 * Week 9
     - Ember Testing
         + Unit Tests
