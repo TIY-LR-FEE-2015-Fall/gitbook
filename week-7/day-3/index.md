@@ -23,10 +23,7 @@ Run About Applying What We Have Learnt Exercise 2
 
 * [Video of Morning Session](https://vimeo.com/147627637)
 
-## Screencast
-
-* Like Counter
-
 ## Reading
 
-* [Ember vs Backbone Primer](../ember/primer.html)
+* [Ember vs Backbone Primer](../../ember/primer.html)
+* [Data Down Actions Up](../../ember/ddau.html)

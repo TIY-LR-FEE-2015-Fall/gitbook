@@ -35,4 +35,4 @@ Run About Applying What We Have Learnt
 
 ## Reading
 
-* [Ember vs Backbone Primer](../ember/primer.html)
+* [Ember vs Backbone Primer](../../ember/primer.html)
