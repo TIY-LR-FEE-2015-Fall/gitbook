@@ -21,6 +21,8 @@ Run About Applying What We Have Learnt Exercise 2
   * Actions with Components
   * Data Down Actions Up
 
+* [Video of Morning Session](https://vimeo.com/147627637)
+
 ## Screencast
 
 * Like Counter
