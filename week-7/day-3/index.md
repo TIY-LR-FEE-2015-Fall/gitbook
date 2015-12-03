@@ -1,4 +1,4 @@
-# Tuesday December 2
+# Wednesday December 2
 
 ## Daily JS
 
