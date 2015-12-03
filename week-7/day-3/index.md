@@ -20,7 +20,7 @@ Run About Applying What We Have Learnt Exercise 2
   * Data Down Actions Up
 
 * [Video of Morning Session](https://vimeo.com/147627637)
-* [Video of Afternoon Session](https://vimeo.com/147627637)
+* [Video of Afternoon Session](https://vimeo.com/147719536)
 
 ## Reading
 
