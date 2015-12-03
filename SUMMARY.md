@@ -77,12 +77,14 @@
     + [Day 1](week-7/day-1/index.md)
     + [Day 2](week-7/day-2/index.md)
     + [Day 3](week-7/day-3/index.md)
+    + [Day 4](week-7/day-4/index.md)
 * Backbone
   - [Common Route Patterns](backbone/common-router.md)
   - [Common View Patterns](backbone/common-views.md)
   - [More Resources](backbone/starting-reading.md)
 * Ember
   - [Primer](ember/primer.md)
+  - [Data Down Actions Up](ember/ddau.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Shell Prompt](resources/shell.md)
