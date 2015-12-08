@@ -42,15 +42,18 @@
         - var p = Pizza.create({allergens: ['dairy']}); p.get('hasGluten') // false
         - var p = Pizza.create({allergens: ['wheat']}); p.get('hasGluten') // true
         - var p = Pizza.create({allergens: ['wheat', 'dairy']}); p.get('hasGluten') // true
-- Integration Testable
-  * Ember Components
-    - How do we test them?
 
-## Videos
+## Lab
+
+## Deploying Ember Apps
+
+* [surge.io](http://surge.io)
+
+* `ember install ember-cli-surge@rtablada/ember-cli-surge#bugfix/surge`
+* Change project name in `CNAME` file
+* Run `ember surge`
+
+### Videos
 
 * [Introduction to Ember Testing](https://vimeo.com/146960505)
 * [Outside In TDD](https://vimeo.com/146953048)
-
-## Homework
-
-*
