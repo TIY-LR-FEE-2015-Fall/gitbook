@@ -47,7 +47,7 @@
 
 ## Deploying Ember Apps
 
-* [surge.io](http://surge.io)
+* [surge.sh](http://surge.sh)
 
 * `ember install ember-cli-surge@rtablada/ember-cli-surge#bugfix/surge`
 * Change project name in `CNAME` file
