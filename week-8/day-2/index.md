@@ -45,7 +45,7 @@
 
 ## Lab
 
-## Deploying Ember Apps
+### Deploying Ember Apps
 
 * [surge.sh](http://surge.sh)
 
@@ -53,7 +53,12 @@
 * Change project name in `CNAME` file
 * Run `ember surge`
 
+
 ### Videos
 
 * [Introduction to Ember Testing](https://vimeo.com/146960505)
-* [Outside In TDD](https://vimeo.com/146953048)
+
+### Code (Backbone Review)
+
+* [Ember Testing](https://github.com/TIY-LR-FEE-2015-Fall/exercise-08-01)
+* [Backbone Review](https://github.com/TIY-LR-FEE-2015-Fall/exercise-08-02)
