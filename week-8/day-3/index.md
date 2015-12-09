@@ -16,7 +16,7 @@ Employees will want to log in to a back of house dashboard and manage both pizza
 
 ### Topics
 
-- Components
+- Our Application
   * Acceptance Tests
     - Describes how a user would work within the app
     - Very high level
@@ -24,6 +24,10 @@ Employees will want to log in to a back of house dashboard and manage both pizza
     - Examples:
       * A user can see a list of pizzas
       * A user can click on "Login" and sees the login form
+- Mocking APIs and Data
+  * Ember Mirage
+    - Pretender routes
+- Components
   * Integration Tests
     - How does this piece of the app interact with a few pieces?
     - Does not tell a full story
