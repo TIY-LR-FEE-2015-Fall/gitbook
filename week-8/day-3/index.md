@@ -15,8 +15,8 @@
 To update to the latest version of Ember and Ember data run:
 
 ```sh
+npm install ember-data@^2.2.0 --save-dev
 bower install ember#^2.2.0 ember-data#^2.2.0 --save -F
-ember install ember-data@^2.2.0
 ```
 
 This will update your `package.json` and `bower.json` files while also installing the latest versions.
