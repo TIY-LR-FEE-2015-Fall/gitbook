@@ -53,3 +53,30 @@ For this week we will be working on a weekly budgeting app.
   - Going Well: Laying things out is easier
   - Needs work: Writing functions, knowing where to begin, remembering structure for Ember and BB
   - Learned: Recognizing Ember vs Backbone similarities and differences
+
+## Data Modeling
+
+### What Are We Storing
+
+- Users
+- Emails
+- Passwords
+- Expenses
+- Budgets
+- Deposits
+- Dates/Timeframes
+- Under/Over Budget
+
+### Organize By Ownership
+
+- User
+  * email
+  * password
+  * Array of Budgets
+    - Array of Expenses
+    - Array of Deposits
+    - Timeframe
+      * Start Date
+      * End Date
+    - totalMoney
+    - overUnder
