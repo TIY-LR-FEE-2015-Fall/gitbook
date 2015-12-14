@@ -34,6 +34,7 @@ Employees will want to log in to a back of house dashboard and manage both pizza
     - Describes how a user would work within the app
     - Very high level
     - Does not care how things are accomplished
+    - Generating Acceptance Tests: `ember g acceptance-test test-name`
     - Examples:
       * A user can see a list of 6 pizzas on the home page
         - Use raw template

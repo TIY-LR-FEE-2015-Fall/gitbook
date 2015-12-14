@@ -19,5 +19,19 @@ We will continue working on Pizza Planet
     - Examples:
       * A form gets filled out and captures input
       * A form errors if the fields are not filled in
+- Arrange, Act, Assert
+  * Arrange: Setup all the data that needs to be tested
+    - Unit Tests (Computed Properties): Create instance of model
+    - Acceptance Tests: Visit page
+    - Integration Tests: Render HBS and setup Listeners
+  * Act: Run required interaction with tested code
+    - Unit Test (Functions/Helpers): Run function
+    - Unit Test (Computed Properties): Change properties
+    - Acceptance Tests: `fillIn`, `click`, etc
+    - Integration Tests: User interaction
+  * Assert: Check expected results
+  * Using Hoisting to Organize Component Tests
+- Writing Basic Helpers
+  * Fill In Form Inputs
 
 ### Lab
