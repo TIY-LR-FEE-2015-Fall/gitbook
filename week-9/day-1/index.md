@@ -80,3 +80,7 @@ For this week we will be working on a weekly budgeting app.
       * End Date
     - totalMoney
     - overUnder
+
+## Screencasts
+
+* [Part 1](https://vimeo.com/148915814)
