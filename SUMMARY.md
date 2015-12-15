@@ -85,6 +85,7 @@
     + [Day 4](week-8/day-4/index.md)
   - Week 9
     + [Day 1](week-9/day-1/index.md)
+    + [Day 2](week-9/day-2/index.md)
 * Backbone
   - [Common Route Patterns](backbone/common-router.md)
   - [Common View Patterns](backbone/common-views.md)
