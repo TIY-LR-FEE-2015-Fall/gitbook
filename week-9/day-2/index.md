@@ -19,11 +19,19 @@
     - `ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents` - Make Mongo Start at login
     - `launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist` - Start Mongo Now
     - `npm install generator-api-kit -g` - Install
-  * Explaination
+  * Explanation
     - What is Mongo?
-    - What is API Kit
+    - What is API Kit?
 - User Password and Registration
   * API Kit Intro
+  * User Password Hashes
+- Sessions - What Are They
+  * Types of Sessions
+    - Cookie
+    - Token
+    - Other
+  * Security
+    - Refreshing
 
 ## Challenge
 
