@@ -54,6 +54,16 @@
   * Installing
     - `ember install ember-simple-auth`
 
+## Ember Simple Auth Steps
+
+* User Submits Form and Action is received by Route Handler
+* Simple Auth Authenticator (oauth2) makes a POST request to `/token`
+* Mirage or Server responds to HTTP request
+* Simple Auth reads HTTP response
+* Simple Auth stores session info
+* Simple Auth Broadcasts `sessionAuthenticated` Action
+* Application route recieves `sessionAuthenticated` action and redirects to configured `routeAfterAuthentication`
+
 ## Challenge
 
 For this week we will be working on a weekly budgeting app.
