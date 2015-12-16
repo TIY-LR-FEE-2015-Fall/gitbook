@@ -32,6 +32,27 @@
     - Other
   * Security
     - Refreshing
+- OAuth What is it
+  * Standard way to do Authorization
+  * Authorization - What does this current user have access to?
+  * OAuth Flows or Grants
+    - Password or Bearer Grant - Only for trusted applications
+      * Send plain text username & password
+      * Immediately send back a session token
+    - Refresh Token Grant
+      * Send a one time use refresh token with all session tokens
+        - Like a one time password
+  * What it doesn't do
+    - How to save email and password
+    - How to compare email or password
+    - How to save session info
+- Ember Simple Auth
+  * Provides Session Management
+  * Deals with OAuth Stuff for us
+    - We send in username & password
+    - It does the rest
+  * Installing
+    - `ember install ember-simple-auth`
 
 ## Challenge
 
@@ -44,21 +65,6 @@ For this week we will be working on a weekly budgeting app.
   - Create a deposit
   - Create an expense
   - See if they are over budget for a week
-
-## Standups
-
-* Jeremy
-  - Learned: Backbone Routing
-  - Need to work on: Ember Startup
-  - Going well: things are starting to click
-* David
-  - Going well: BB project is functioning, Ember is starting to click, just needs repetition
-  - Need to work on: Scheduling & Syntax Exercises
-  - Learned: CSS and HTML are coming together
-* Brandi
-  - Going Well: Laying things out is easier
-  - Needs work: Writing functions, knowing where to begin, remembering structure for Ember and BB
-  - Learned: Recognizing Ember vs Backbone similarities and differences
 
 ## Data Modeling
 
@@ -89,4 +95,6 @@ For this week we will be working on a weekly budgeting app.
 
 ## Screencasts
 
-* [Part 1](https://vimeo.com/148915814)
+* [Part 1](https://vimeo.com/149045855)
+* [Part 2](https://vimeo.com/149048373)
+* [Part 3](https://vimeo.com/149076284)
