@@ -117,3 +117,7 @@ For this week we will be working on a weekly budgeting app.
   * What's learning: Better, easier APIs
 
 ## Screencasts
+
+* [Part 1](https://vimeo.com/149205503)
+* [Part 2](https://vimeo.com/149205502)
+* [Part 3](https://vimeo.com/149205505)

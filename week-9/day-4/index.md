@@ -48,6 +48,24 @@ For this week we will be working on a weekly budgeting app.
       * End Date
     - totalMoney
     - overUnder
+    - name
+
+### Budget
+
+- name (String)
+- startDate (Date)
+- startingAmount (Number)
+- transactions (HasMany:Transaction)
+- endDate (compute)
+- remaining (compute)
+- over/under (compute:boolen)
+
+### Transaction
+
+- notes (String)
+- amount (Number)
+- createdAt (Date)
+- budget (BelongsTo:Budget)
 
 ## Standup
 
@@ -69,3 +87,7 @@ For this week we will be working on a weekly budgeting app.
   * What's learning: Reduce functions are pretty awesome
 
 ## Screencasts
+
+- [Part 1](https://vimeo.com/149326018)
+- [Part 2](https://vimeo.com/149326017)
+- [Part 3](https://vimeo.com/149326019)
