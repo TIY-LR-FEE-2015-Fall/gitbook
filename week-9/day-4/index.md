@@ -74,7 +74,7 @@ For this week we will be working on a weekly budgeting app.
   * What's bad: Laundry does not just eat socks...
   * What's learning: Cool to see some progress blocking user access and such
 - Brandi
-  * What's good: Able to replace hardcoded template with {{#each}} loop and handlebars w/ model data
+  * What's good: Able to replace hardcoded template with `{% raw %}{{#each}}{% endraw %}` loop and handlebars w/ model data
   * What's bad: Header is still hardcoded. What is the logic to get input to calculate servings
   * What's learning: Testing will make us a [superstar](http://i.imgur.com/29KhR.gif)
 - Jeremy
