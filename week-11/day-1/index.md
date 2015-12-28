@@ -38,6 +38,8 @@
     * `collection`
       * `itemScope`
       * `item`
+  * Example Page Object
+    - [Razer Cars Car Type Index](https://github.com/TIY-LR-FEE-2015-Fall/razer-cars-app/blob/master/tests/acceptance/car-types/index-test.js#L6)
 
 ## Standups
 
@@ -64,12 +66,26 @@
 * Ryan
   - Going Well: Intro to Driven API
   - Needs Work: API Kit and Server Side Testing
-  - Learned: Ember.Object.create
+  - Learned: Ember.Object.create && Flexbox Froggy
   - Share From The Field: Walker is in ATL 😬, Fire Alarm
 
 ## Needs Review (or Broken Links)
 
 - SASS stuff
 - Layout
+
+## Razer Cars
+
+### Done
+
+* Car Types
+  - Index
+  - Create
+  - Edit
+* Inventory
+  - Index
+* Login
+  - User can login
+  - User can have invalid credentials
 
 ## Screencasts
