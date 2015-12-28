@@ -42,29 +42,33 @@
 ## Standups
 
 * Jeremy
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Reducing some stress
+  - Needs Work: Finishing up surf & paddle (Overlay photos) and recipe card
+  - Learned: How Ember is Setup and Understanding
+  - Share From The Field: Too much ham
 * David
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Was able to review past assignments
+  - Needs Work: Recipe Card (just time)
+  - Learned: Acceptance testing is making more sense
+  - Share From The Field: Jaguars still are terrible
 * Brandi
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Most assignments are caught up
+  - Needs Work: Recipe Card (knowing what to write in the tests)
+  - Learned: We've done ALOT
+  - Share From The Field: Dogs are GREAT!
 * Chancey
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Starting to figure out routes in Ember
+  - Needs Work: Testing
+  - Share From The Field: Sold the XBOX!
 * Ryan
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Intro to Driven API
+  - Needs Work: API Kit and Server Side Testing
+  - Learned: Ember.Object.create
+  - Share From The Field: Walker is in ATL 😬, Fire Alarm
+
+## Needs Review (or Broken Links)
+
+- SASS stuff
+- Layout
 
 ## Screencasts
