@@ -59,6 +59,7 @@
 * Chancey
   - Going Well: Starting to figure out routes in Ember
   - Needs Work: Testing
+  - Learned: Testing takes time but is more guaranteed
   - Share From The Field: Sold the XBOX!
 * Ryan
   - Going Well: Intro to Driven API
