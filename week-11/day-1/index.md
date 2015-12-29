@@ -88,4 +88,30 @@
   - User can login
   - User can have invalid credentials
 
+## Restaurant Menu Notes
+
+* Models
+  - Menu Item
+    * Name
+    * Description
+    * Price
+    * Category
+  - Order
+    * Payment Info
+    * Shipping Info
+    * Customer Info
+    * Delivery or Pickup
+    * items (hasMany(OrderItem))
+  - Order Item
+    * Price when Purchased
+    * Quantity
+    * menuItem (belongsTo(MenuItem))
+
 ## Screencasts
+
+
+## Homework
+
+* Example:
+  - http://obese-finger.surge.sh
+  - http://obese-finger.surge.sh/admin/orders
