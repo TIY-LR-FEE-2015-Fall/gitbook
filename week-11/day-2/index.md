@@ -21,30 +21,32 @@
 
 - Services
   * Why use Services?
+- Closure Actions
+  * Different ways of writing actions
   * `ember install ember-route-action-helper`
 
 ## Standups
 
 * David
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Started recipe card
+  - Needs Work: Remembering Ember Syntax & Structure
+  - Learned: Troubleshooting is a big part of development
+  - Share From The Field: Solar has claimed the couch for her own (again)
 * Jeremy
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Sleep continues can focus on HW
+  - Needs Work: Still needs to see Star Wars
+  - Learned: Troubleshooting sometimes there's problems
+  - Share From The Field: Want the sun to come back out
 * Brandi
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Figured out github naming, Tests are passing for recipe card
+  - Needs Work: Tests are passing but it's not actually working???
+  - Learned: There is a help menu in Github
+  - Share From The Field: Old houses are cold in ACTUAL winter (well it's still not really that cold out [but Arkansas...])
 * Ryan
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Almost done with lecture, and I figured out app scenarios
+  - Needs Work: What was going on with computed properties `@each`
+  - Learned: Computed each might have a better solution???
+  - Share From The Field: Still sick, but I got some sleep
 
 ## Needs Review (or Broken Links)
 
