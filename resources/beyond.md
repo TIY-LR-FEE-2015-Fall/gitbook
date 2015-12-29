@@ -1,5 +1,8 @@
 # What to do after this class
 
+> **WARNING** The course is not yet finished, don't dive in here until you are done with final projects!!!
+> These are awesome resources for your next steps, but you've already paid for TIY now, use full advantage of it!
+
 ## Events
 
 Try to join some local meetups or other events, even if they aren't just Javascript:
