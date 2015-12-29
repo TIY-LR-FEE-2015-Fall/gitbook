@@ -90,7 +90,7 @@
     + [Day 4](week-9/day-4/index.md)
   - Week 11
     + [Day 1](week-11/day-1/index.md)
-    + [Day 3](week-11/day-3/index.md)
+    + [Day 2](week-11/day-2/index.md)
     + [Menu Notes](week-11/menu-notes.md)
 * Backbone
   - [Common Route Patterns](backbone/common-router.md)
