@@ -28,26 +28,26 @@
 
 ## Standups
 
-* Chancey
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
-* David
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
 * Jeremy
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Made it here
+  - Needs Work: Want to know more about components
+  - Learned: Services, how to use them... Maybe...?
+  - Share From The Field: Starting to feel sick, Seeing Star Wars tomorrow!
+* Chancey
+  - Going Well: `link-to` and routes are starting to feel good
+  - Needs Work: Mirage...
+  - Learned: More routes and links around Ember apps
+  - Share From The Field: Try to go to sleep before 3:30AM
+* David
+  - Going Well: Ember vocab
+  - Needs Work: Order of when and how to do things
+  - Learned: [Ember Vocab](http://kylecoberly.github.io/ember-vocab/)
+  - Share From The Field: It's cold, not sick yet
 * Ryan
-  - Going Well:
-  - Needs Work:
-  - Learned:
-  - Share From The Field:
+  - Going Well: Planned the lesson
+  - Needs Work: Ember guides that TDD, Ryan's getting started guide
+  - Learned: Simplifying somethings with `reduce` and `didReceiveAttrs`, when to use `Ember.on`
+  - Share From The Field: Treadmill 1 mi. Apt is jank
 
 ## Needs Review (or Broken Links)
 
