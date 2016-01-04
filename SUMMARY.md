@@ -98,6 +98,7 @@
   - [Common View Patterns](backbone/common-views.md)
   - [More Resources](backbone/starting-reading.md)
 * Ember
+  - [New Project](ember/new-project.md)
   - [Primer](ember/primer.md)
   - [Data Down Actions Up](ember/ddau.md)
 * Resources
