@@ -12,6 +12,7 @@ Remember project names cannot start with numbers.
 trash bower_components
 npm install --save-dev ember-data
 bower install ember#^2.2.0 ember-data#^2.2.0
+bower install
 ```
 
 ## Install Common Ember CLI Addons
