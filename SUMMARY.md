@@ -100,7 +100,9 @@
 * Ember
   - [New Project](ember/new-project.md)
   - [Primer](ember/primer.md)
-  - [Data Down Actions Up](ember/ddau.md)
+  - [User Registration](ember/user-registration.md)
+  - [Current User](ember/current-user.md)
+  - [User Roles](ember/user-roles.md)
 * Resources
   - [Keyboard Shortcuts](resources/keyboard-shortcuts.md)
   - [Shell Prompt](resources/shell.md)
