@@ -1,11 +1,12 @@
 # Current Logged In User
 
-1. Create a `profile` model to represent the current user
+- Create a `profile` model to represent the current user
   * `ember g model profile`
   * Add `roles: DS.attr(),` - We'll use this later
   * Add properties you care about
-2. Add Current User Service
-  * ```hbs
+- Add Current User Service
+
+```handlebars
 import Ember from 'ember';
 import DS from 'ember-data';
 
@@ -20,11 +21,14 @@ export default Ember.Service.extend({
       });
     }
   }),
-});```
-3. Add `admin` Route
+});
+```
+
+- Add `admin` Route
   * `ember g route admin`
-4. Make Admin Route Load Current User Before Routing:
-  * ```hbs
+- Make Admin Route Load Current User Before Routing:
+
+```handlebars
 import Ember from 'ember';
 let { RSVP } = Ember;
 
@@ -49,4 +53,5 @@ export default Ember.Route.extend({
     // Sets model as the current logged in user
     return this.get('sessionUser.user');
   }
-});```
+});
+```
